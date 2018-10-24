@@ -1,0 +1,140 @@
+FITLD2: Task FITLD  (release of 31DEC17) begins
+FITLD2: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD2: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD2: Create FITLD       .TEMP  .   1 (MA)  on disk  1  cno   98
+FITLD2: Rename L1337+5DE604.IMAP  .   1 (MA)  on disk 1 cno   98
+FITLD2: Image=NONE      (MA)         Filename=L1337+5DE604.IMAP  .   1
+FITLD2: Telescope=                   Receiver=
+FITLD2: Observer=                    User #=    2
+FITLD2: Observ. date=BAD DATE        Map date=23-OCT-2018
+FITLD2: Pixel type: FLOATING         Magic value blanking
+FITLD2: Minimum=-1.45866359E-02      Maximum= 3.25369209E-01
+FITLD2: ----------------------------------------------------------------
+FITLD2: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD2: RA---SIN   256    13 37 49.900     128.00       -118.125    0.00
+FITLD2: DEC--SIN   256    55 01 01.000     128.00        118.125    0.00
+FITLD2: ----------------------------------------------------------------
+FITLD2: Coordinate equinox 2000.00
+FITLD2: Maximum version number of extension files of type HI is   1
+FITLD2: Appears to have ended successfully
+FITLD2: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+FITLD2: Task FITLD  (release of 31DEC17) begins
+FITLD2: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD2: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD2: Create FITLD       .TEMP  .   1 (MA)  on disk  1  cno  117
+FITLD2: Rename L1337+5DE604.IMAP  .   2 (MA)  on disk 1 cno  117
+FITLD2: Image=NONE      (MA)         Filename=L1337+5DE604.IMAP  .   2
+FITLD2: Telescope=                   Receiver=
+FITLD2: Observer=                    User #=    2
+FITLD2: Observ. date=BAD DATE        Map date=23-OCT-2018
+FITLD2: Pixel type: FLOATING         Magic value blanking
+FITLD2: Minimum=-1.45866359E-02      Maximum= 3.25369209E-01
+FITLD2: ----------------------------------------------------------------
+FITLD2: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD2: RA---SIN   256    13 37 49.900     128.00       -118.125    0.00
+FITLD2: DEC--SIN   256    55 01 01.000     128.00        118.125    0.00
+FITLD2: ----------------------------------------------------------------
+FITLD2: Coordinate equinox 2000.00
+FITLD2: Maximum version number of extension files of type HI is   1
+FITLD2: Appears to have ended successfully
+FITLD2: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+FITLD2: Task FITLD  (release of 31DEC17) begins
+FITLD2: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD2: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD2: Create FITLD       .TEMP  .   1 (MA)  on disk  1  cno   90
+FITLD2: Rename L1337+5DE604.IMAP  .   1 (MA)  on disk 1 cno   90
+FITLD2: Image=NONE      (MA)         Filename=L1337+5DE604.IMAP  .   1
+FITLD2: Telescope=                   Receiver=
+FITLD2: Observer=                    User #=    2
+FITLD2: Observ. date=BAD DATE        Map date=23-OCT-2018
+FITLD2: Pixel type: FLOATING         Magic value blanking
+FITLD2: Minimum=-1.45866359E-02      Maximum= 3.25369209E-01
+FITLD2: ----------------------------------------------------------------
+FITLD2: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD2: RA---SIN   256    13 37 49.900     128.00       -118.125    0.00
+FITLD2: DEC--SIN   256    55 01 01.000     128.00        118.125    0.00
+FITLD2: ----------------------------------------------------------------
+FITLD2: Coordinate equinox 2000.00
+FITLD2: Maximum version number of extension files of type HI is   1
+FITLD2: Appears to have ended successfully
+FITLD2: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+FITLD3: Task FITLD  (release of 31DEC17) begins
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: Create FITLD       .TEMP  .   1 (MA)  on disk  1  cno  106
+FITLD3: Rename L1337+5DE604.IMAP  .   2 (MA)  on disk 1 cno  106
+FITLD3: Image=NONE      (MA)         Filename=L1337+5DE604.IMAP  .   2
+FITLD3: Telescope=                   Receiver=
+FITLD3: Observer=                    User #=    2
+FITLD3: Observ. date=BAD DATE        Map date=23-OCT-2018
+FITLD3: Pixel type: FLOATING         Magic value blanking
+FITLD3: Minimum=-1.45866359E-02      Maximum= 3.25369209E-01
+FITLD3: ----------------------------------------------------------------
+FITLD3: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD3: RA---SIN   256    13 37 49.900     128.00       -118.125    0.00
+FITLD3: DEC--SIN   256    55 01 01.000     128.00        118.125    0.00
+FITLD3: ----------------------------------------------------------------
+FITLD3: Coordinate equinox 2000.00
+FITLD3: Maximum version number of extension files of type HI is   1
+FITLD3: Appears to have ended successfully
+FITLD3: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+FITLD3: Task FITLD  (release of 31DEC17) begins
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: Create FITLD       .TEMP  .   1 (MA)  on disk  1  cno  122
+FITLD3: Rename L1337+5DE604.IMAP  .   3 (MA)  on disk 1 cno  122
+FITLD3: Image=NONE      (MA)         Filename=L1337+5DE604.IMAP  .   3
+FITLD3: Telescope=                   Receiver=
+FITLD3: Observer=                    User #=    2
+FITLD3: Observ. date=BAD DATE        Map date=23-OCT-2018
+FITLD3: Pixel type: FLOATING         Magic value blanking
+FITLD3: Minimum=-1.45866359E-02      Maximum= 3.25369209E-01
+FITLD3: ----------------------------------------------------------------
+FITLD3: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD3: RA---SIN   256    13 37 49.900     128.00       -118.125    0.00
+FITLD3: DEC--SIN   256    55 01 01.000     128.00        118.125    0.00
+FITLD3: ----------------------------------------------------------------
+FITLD3: Coordinate equinox 2000.00
+FITLD3: Maximum version number of extension files of type HI is   1
+FITLD3: Appears to have ended successfully
+FITLD3: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+FITLD3: Task FITLD  (release of 31DEC17) begins
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: Create FITLD       .TEMP  .   1 (MA)  on disk  1  cno   90
+FITLD3: Rename L1337+5DE604.IMAP  .   1 (MA)  on disk 1 cno   90
+FITLD3: Image=NONE      (MA)         Filename=L1337+5DE604.IMAP  .   1
+FITLD3: Telescope=                   Receiver=
+FITLD3: Observer=                    User #=    2
+FITLD3: Observ. date=BAD DATE        Map date=23-OCT-2018
+FITLD3: Pixel type: FLOATING         Magic value blanking
+FITLD3: Minimum=-1.45866359E-02      Maximum= 3.25369209E-01
+FITLD3: ----------------------------------------------------------------
+FITLD3: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD3: RA---SIN   256    13 37 49.900     128.00       -118.125    0.00
+FITLD3: DEC--SIN   256    55 01 01.000     128.00        118.125    0.00
+FITLD3: ----------------------------------------------------------------
+FITLD3: Coordinate equinox 2000.00
+FITLD3: Maximum version number of extension files of type HI is   1
+FITLD3: Appears to have ended successfully
+FITLD3: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+FITLD3: Task FITLD  (release of 31DEC17) begins
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: Create FITLD       .TEMP  .   1 (MA)  on disk  1  cno    6
+FITLD3: Rename L1337+5DE604.IMAP  .   1 (MA)  on disk 1 cno    6
+FITLD3: Image=NONE      (MA)         Filename=L1337+5DE604.IMAP  .   1
+FITLD3: Telescope=                   Receiver=
+FITLD3: Observer=                    User #=    3
+FITLD3: Observ. date=BAD DATE        Map date=23-OCT-2018
+FITLD3: Pixel type: FLOATING         Magic value blanking
+FITLD3: Minimum=-1.45866359E-02      Maximum= 3.25369209E-01
+FITLD3: ----------------------------------------------------------------
+FITLD3: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD3: RA---SIN   256    13 37 49.900     128.00       -118.125    0.00
+FITLD3: DEC--SIN   256    55 01 01.000     128.00        118.125    0.00
+FITLD3: ----------------------------------------------------------------
+FITLD3: Coordinate equinox 2000.00
+FITLD3: Maximum version number of extension files of type HI is   1
+FITLD3: Appears to have ended successfully
+FITLD3: localhost    31DEC17 TST: Cpu=       0.0  Real=       0

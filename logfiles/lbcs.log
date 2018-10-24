@@ -1,0 +1,29 @@
+FITLD1: Task FITLD  (release of 31DEC17) begins
+FITLD1: Found          observed on 01-JAN-2000
+FITLD1: Create lbcs        .FITS  .   1 (UV)  on disk  1  cno    3
+FITLD1: NXCHCK: Building new index table
+FITLD1: Image=          (UV)         Filename=lbcs        .FITS  .   1
+FITLD1: Telescope=                   Receiver=
+FITLD1: Observer=                    User #=   14
+FITLD1: Observ. date=01-JAN-2000     Map date=24-OCT-2018
+FITLD1: # visibilities      4050     Sort order  TB
+FITLD1: Rand axes: UU-L  VV-L  WW-L  TIME1  SUBARRAY  ANTENNA1  ANTENNA2
+FITLD1: ----------------------------------------------------------------
+FITLD1: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD1: COMPLEX      3   1.0000000E+00       1.00  1.0000000E+00    0.00
+FITLD1: STOKES       1  -1.0000000E+00       1.00 -1.0000000E+00    0.00
+FITLD1: FREQ        64   1.4000000E+08       1.00  4.8828121E+04    0.00
+FITLD1: RA           1    00 00 00.000       1.00       3600.000    0.00
+FITLD1: DEC          1    60 00 00.000       1.00       3600.000    0.00
+FITLD1: ----------------------------------------------------------------
+FITLD1: Coordinate equinox 2000.00
+FITLD1: Maximum version number of extension files of type HI is   1
+FITLD1: Maximum version number of extension files of type AN is   1
+FITLD1: Maximum version number of extension files of type NX is   1
+FITLD1: Appears to have ended successfully
+FITLD1: localhos 31DEC17 TST: Cpu=      0.0  Real=      0  IO=         6
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+INDXR1: Task INDXR  (release of 31DEC17) begins
+INDXR1: Making NX table for single-source file, no CL table
+INDXR1: Appears to have ended successfully
+INDXR1: localhos 31DEC17 TST: Cpu=      0.0  Real=      0  IO=         3

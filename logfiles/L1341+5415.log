@@ -1,0 +1,2347 @@
+FITLD3: Task FITLD  (release of 31DEC17) begins
+FITLD3: Found MULTI    observed on 15-OCT-2015
+FITLD3: Create L1341+5415  .FITS  .   1 (UV)  on disk  1  cno    1
+FITLD3: UVFDAT: counts for cross-correlations
+FITLD3: UVFDAT: found       7920 spectra samples already flagged
+FITLD3: UVFDAT: found      8.696 percent samples already flagged
+FITLD3: NXCHCK: Building new index table
+FITLD3: Image=MULTI     (UV)         Filename=L1341+5415  .FITS  .   1
+FITLD3: Telescope=LOFAR              Receiver=LOFAR
+FITLD3: Observer=unknown             User #=    3
+FITLD3: Observ. date=15-OCT-2015     Map date=23-OCT-2018
+FITLD3: # visibilities     22770     Sort order  TB
+FITLD3: Rand axes: UU-L  VV-L  WW-L  TIME1  SUBARRAY  FREQSEL  SOURCE
+FITLD3:            INTTIM  ANTENNA1  ANTENNA2
+FITLD3: ----------------------------------------------------------------
+FITLD3: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD3: COMPLEX      3   1.0000000E+00       1.00  1.0000000E+00    0.00
+FITLD3: STOKES       4  -5.0000000E+00       1.00 -1.0000000E+00    0.00
+FITLD3: FREQ        76   1.4020844E+08      38.00  4.8828125E+04    0.00
+FITLD3: IF           1   1.0000000E+00       1.00  1.0000000E+00    0.00
+FITLD3: RA           1    13 41 58.500       1.00       3600.000    0.00
+FITLD3: DEC          1    54 15 25.700       1.00       3600.000    0.00
+FITLD3: ----------------------------------------------------------------
+FITLD3: Coordinate equinox 2000.00
+FITLD3: Maximum version number of extension files of type HI is   1
+FITLD3: Maximum version number of extension files of type FQ is   1
+FITLD3: Maximum version number of extension files of type AN is   1
+FITLD3: Maximum version number of extension files of type SU is   1
+FITLD3: Maximum version number of extension files of type NX is   1
+FITLD3: Appears to have ended successfully
+FITLD3: localhos 31DEC17 TST: Cpu=      0.4  Real=      1  IO=       161
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+INDXR3: Task INDXR  (release of 31DEC17) begins
+INDXR3: Creating CL table with version number 1
+INDXR3: Appears to have ended successfully
+INDXR3: localhos 31DEC17 TST: Cpu=      0.1  Real=      0  IO=        82
+FRING3: Task FRING  (release of 31DEC17) begins
+FRING3: UVGET: doing no flagging this time
+FRING3: WARNING: uncalibrated linear polarization data may be a problem
+FRING3: Set integration time to  2.002780 seconds, hope that is ok
+FRING3: WARNING: uncalibrated linear polarization data may be a problem
+FRING3: Selecting the data
+FRING3: No need to divide by flux densities in this task
+FRING3: Determining solutions
+FRING3: Writing SN table    1
+FRING3: Time=   0/ 11 46 30, Polarization = 1
+FRING3: QINIT: did a GET  of      5120 Kwords, OFF   17579540452893
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.245E+00 mHz
+FRING3: B = Baseline  R = Rate (mHz)  D = Delay (nsec)
+FRING3: Ant= 15 ref= 23 IF=  1 R=     -1.23 D=       70.0 SNR=  18.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.49 D=      160.0 SNR=   4.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      2.45 D=       60.0 SNR=  20.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.49 D=       20.0 SNR=   6.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=     -0.74 D=      110.0 SNR=   6.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      2.45 D=      160.0 SNR=  16.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      2.45 D=      -50.0 SNR=   5.9
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.98 D=      260.0 SNR=   8.1
+FRING3: Ant= 16 ref= 19 IF=  1 R=      0.25 D=      -60.0 SNR=   8.7
+FRING3: Ant= 21 ref= 19 IF=  1 R=     -0.98 D=     -190.0 SNR=   2.4
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-192.2 rate=     -1.15 delay=     73.88 SNR=  50.3
+FRING3: Ant(16): Phas= 165.0 rate=      0.27 delay=    116.52 SNR=  41.3
+FRING3: Ant(17): Phas= 150.4 rate=      2.65 delay=     71.02 SNR=  55.7
+FRING3: Ant(18): Phas= 152.8 rate=      0.68 delay=     26.43 SNR=  57.4
+FRING3: Ant(19): Phas=  27.7 rate=     -0.13 delay=    175.57 SNR=  44.6
+FRING3: Ant(20): Phas=  -3.9 rate=      2.50 delay=    153.39 SNR=  53.4
+FRING3: Ant(22): Phas=-147.3 rate=      0.99 delay=    227.10 SNR=  55.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  1.14 rate=     0.029 delay=     1.666
+FRING3: Ant(16): Phas=  1.39 rate=     0.030 delay=     1.919
+FRING3: Ant(17): Phas=  1.03 rate=     0.027 delay=     1.484
+FRING3: Ant(18): Phas=  1.00 rate=     0.027 delay=     1.437
+FRING3: Ant(19): Phas=  1.29 rate=     0.028 delay=     1.945
+FRING3: Ant(20): Phas=  1.07 rate=     0.028 delay=     1.526
+FRING3: Ant(22): Phas=  1.03 rate=     0.027 delay=     1.490
+FRING3: Time=   0/ 11 46 30, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.245E+00 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=     -1.47 D=       90.0 SNR=  20.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=     -0.25 D=      130.0 SNR=   2.7
+FRING3: Ant= 17 ref= 23 IF=  1 R=      2.21 D=       70.0 SNR=   6.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.49 D=       10.0 SNR=   6.4
+FRING3: Ant= 19 ref= 23 IF=  1 R=     -0.74 D=      120.0 SNR=   4.7
+FRING3: Ant= 20 ref= 23 IF=  1 R=      1.72 D=      140.0 SNR=  14.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      2.45 D=      -70.0 SNR=   7.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.98 D=      250.0 SNR=   9.3
+FRING3: Ant= 16 ref= 15 IF=  1 R=      2.45 D=     -140.0 SNR=   2.1
+FRING3: Ant= 19 ref= 15 IF=  1 R=      0.25 D=      130.0 SNR=   1.8
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 149.7 rate=     -1.27 delay=     84.79 SNR=  53.0
+FRING3: Ant(17): Phas= 171.8 rate=      2.47 delay=     65.14 SNR=  57.8
+FRING3: Ant(18): Phas= 169.4 rate=      0.35 delay=     13.54 SNR=  57.8
+FRING3: Ant(20): Phas=  13.9 rate=      2.35 delay=    157.82 SNR=  53.0
+FRING3: Ant(21): Phas= -85.4 rate=      5.24 delay=    -74.11 SNR=  49.3
+FRING3: Ant(22): Phas=-169.2 rate=      0.99 delay=    246.46 SNR=  55.2
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  1.08 rate=     0.030 delay=     1.546
+FRING3: Ant(17): Phas=  0.99 rate=     0.028 delay=     1.433
+FRING3: Ant(18): Phas=  0.99 rate=     0.028 delay=     1.454
+FRING3: Ant(20): Phas=  1.08 rate=     0.031 delay=     1.597
+FRING3: Ant(21): Phas=  1.16 rate=     0.033 delay=     1.695
+FRING3: Ant(22): Phas=  1.04 rate=     0.029 delay=     1.503
+FRING3: Found       15 good solutions
+FRING3: Failed on        3 solutions
+FRING3: Appears to have ended successfully
+FRING3: localhos 31DEC17 TST: Cpu=      0.6  Real=      1  IO=       173
+FRING3: Task FRING  (release of 31DEC17) begins
+FRING3: UVGET: doing no flagging this time
+FRING3: WARNING: uncalibrated linear polarization data may be a problem
+FRING3: Set integration time to  2.002780 seconds, hope that is ok
+FRING3: WARNING: uncalibrated linear polarization data may be a problem
+FRING3: Selecting the data
+FRING3: No need to divide by flux densities in this task
+FRING3: Determining solutions
+FRING3: Writing SN table    2
+FRING3: Time=   0/ 11 45 03, Polarization = 1
+FRING3: QINIT: did a GET  of      5120 Kwords, OFF   17572456348701
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: B = Baseline  R = Rate (mHz)  D = Delay (nsec)
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   3.2
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   3.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   3.7
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   3.8
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   2.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      210.0 SNR=   3.1
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   2.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   7.2
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-167.1 rate=     16.53 delay=    -12.96 SNR=  11.6
+FRING3: Ant(16): Phas=  76.0 rate=     17.70 delay=     97.89 SNR=  11.9
+FRING3: Ant(17): Phas= 101.7 rate=     23.49 delay=     80.29 SNR=  12.3
+FRING3: Ant(18): Phas= 133.6 rate=    -26.88 delay=     33.82 SNR=  11.3
+FRING3: Ant(19): Phas= -37.4 rate=      7.72 delay=    179.63 SNR=  12.2
+FRING3: Ant(20): Phas= -99.2 rate=      1.84 delay=    131.76 SNR=   8.4
+FRING3: Ant(21): Phas=  71.9 rate=     -8.56 delay=    -52.19 SNR=  10.9
+FRING3: Ant(22): Phas= 162.2 rate=     23.05 delay=    235.95 SNR=  11.7
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.94 rate=     4.874 delay=     7.463
+FRING3: Ant(16): Phas=  4.82 rate=     4.684 delay=     6.880
+FRING3: Ant(17): Phas=  4.65 rate=     4.858 delay=     6.770
+FRING3: Ant(18): Phas=  5.07 rate=     4.985 delay=     7.161
+FRING3: Ant(19): Phas=  4.70 rate=     4.544 delay=     6.381
+FRING3: Ant(20): Phas=  6.80 rate=     6.050 delay=     8.463
+FRING3: Ant(21): Phas=  5.24 rate=     5.441 delay=     7.137
+FRING3: Ant(22): Phas=  4.89 rate=     4.577 delay=     6.507
+FRING3: Time=   0/ 11 45 03, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   3.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   4.3
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   2.7
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -50.0 SNR=   3.7
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   2.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   2.3
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   3.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   2.3
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-177.2 rate=     -8.59 delay=     82.70 SNR=  11.0
+FRING3: Ant(16): Phas=  80.7 rate=      5.18 delay=    120.67 SNR=  10.6
+FRING3: Ant(17): Phas=  89.2 rate=     12.41 delay=     40.72 SNR=  12.7
+FRING3: Ant(18): Phas= 117.4 rate=     -5.34 delay=    -24.81 SNR=  11.8
+FRING3: Ant(19): Phas= -30.9 rate=     17.21 delay=    135.83 SNR=  12.7
+FRING3: Ant(20): Phas= -82.8 rate=     28.87 delay=    162.53 SNR=  11.9
+FRING3: Ant(21): Phas=  91.6 rate=     16.88 delay=   -136.55 SNR=  10.4
+FRING3: Ant(22): Phas= 145.1 rate=    -12.30 delay=    211.87 SNR=  12.0
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.21 rate=     4.826 delay=     8.076
+FRING3: Ant(16): Phas=  5.39 rate=     4.901 delay=     7.453
+FRING3: Ant(17): Phas=  4.52 rate=     4.422 delay=     6.737
+FRING3: Ant(18): Phas=  4.84 rate=     4.584 delay=     7.141
+FRING3: Ant(19): Phas=  4.50 rate=     4.348 delay=     6.626
+FRING3: Ant(20): Phas=  4.80 rate=     4.789 delay=     6.947
+FRING3: Ant(21): Phas=  5.53 rate=     4.897 delay=     7.687
+FRING3: Ant(22): Phas=  4.77 rate=     5.022 delay=     6.767
+FRING3: Time=   0/ 11 45 08, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.156E+04 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      -40.0 SNR=   2.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      210.0 SNR=   4.4
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=     -140.0 SNR=   2.2
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   8.0
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=     -260.0 SNR=   2.5
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   5.1
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   2.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   2.1
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-167.8 rate=      0.00 delay=    102.46 SNR=   6.3
+FRING3: Ant(16): Phas= 128.1 rate=     -0.00 delay=    177.99 SNR=   8.6
+FRING3: Ant(17): Phas= 772.8 rate=      0.00 delay=     72.50 SNR=   9.2
+FRING3: Ant(18): Phas=-258.4 rate=      0.00 delay=    -21.02 SNR=   8.4
+FRING3: Ant(19): Phas=  33.0 rate=      0.00 delay=    -93.36 SNR=   6.5
+FRING3: Ant(20): Phas=  10.3 rate=      0.00 delay=    583.44 SNR=   6.3
+FRING3: Ant(21): Phas= 105.0 rate=      0.00 delay=     11.78 SNR=   8.5
+FRING3: Ant(22): Phas= 160.1 rate=      0.00 delay=   -353.42 SNR=   7.0
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  9.13 rate=   961.638 delay=    11.733
+FRING3: Ant(16): Phas=  6.68 rate=   976.204 delay=     8.637
+FRING3: Ant(17): Phas=  6.25 rate=   889.934 delay=     7.984
+FRING3: Ant(18): Phas=  6.83 rate=   904.104 delay=     8.467
+FRING3: Ant(19): Phas=  8.81 rate=   971.462 delay=    10.519
+FRING3: Ant(20): Phas=  9.03 rate=  1040.074 delay=    10.956
+FRING3: Ant(21): Phas=  6.72 rate=   953.064 delay=     8.482
+FRING3: Ant(22): Phas=  8.24 rate=  1025.565 delay=    10.103
+FRING3: Time=   0/ 11 45 08, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.156E+04 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   5.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   2.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   2.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   7.3
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      290.0 SNR=   2.2
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -200.0 SNR=   3.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   4.8
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-175.7 rate=      0.00 delay=    102.07 SNR=  10.0
+FRING3: Ant(16): Phas=  53.4 rate=      0.00 delay=     34.89 SNR=  11.2
+FRING3: Ant(17): Phas= 102.1 rate=     -0.00 delay=     98.34 SNR=  12.7
+FRING3: Ant(18): Phas= 127.0 rate=     -0.00 delay=     20.44 SNR=  12.7
+FRING3: Ant(19): Phas= -19.4 rate=     -0.00 delay=    185.73 SNR=  11.7
+FRING3: Ant(20): Phas=-105.5 rate=      0.00 delay=    206.49 SNR=  11.8
+FRING3: Ant(21): Phas= 133.6 rate=     -0.00 delay=   -154.23 SNR=   9.3
+FRING3: Ant(22): Phas= 156.0 rate=      0.00 delay=    277.41 SNR=   9.9
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.71 rate=   794.141 delay=     8.701
+FRING3: Ant(16): Phas=  5.11 rate=   751.294 delay=     8.401
+FRING3: Ant(17): Phas=  4.50 rate=   687.189 delay=     6.702
+FRING3: Ant(18): Phas=  4.50 rate=   679.440 delay=     7.001
+FRING3: Ant(19): Phas=  4.90 rate=   696.071 delay=     7.678
+FRING3: Ant(20): Phas=  4.87 rate=   778.003 delay=     6.992
+FRING3: Ant(21): Phas=  6.19 rate=   809.660 delay=     8.471
+FRING3: Ant(22): Phas=  5.81 rate=   764.654 delay=     8.588
+FRING3: Time=   0/ 11 45 13, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   4.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   4.3
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   4.3
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   4.5
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   6.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.1
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -110.0 SNR=   2.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   2.8
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-122.2 rate=     37.37 delay=    121.61 SNR=  12.8
+FRING3: Ant(16): Phas= 128.8 rate=     12.10 delay=    122.07 SNR=  12.9
+FRING3: Ant(17): Phas= 104.7 rate=     -7.66 delay=     99.94 SNR=  12.7
+FRING3: Ant(18): Phas= 173.8 rate=     11.04 delay=     33.35 SNR=  13.0
+FRING3: Ant(19): Phas= -23.8 rate=     21.00 delay=    175.50 SNR=  13.1
+FRING3: Ant(20): Phas=-114.0 rate=     62.36 delay=    207.61 SNR=  11.3
+FRING3: Ant(21): Phas= 104.8 rate=    -56.12 delay=    -76.49 SNR=  10.6
+FRING3: Ant(22): Phas= 158.9 rate=     -0.52 delay=    176.42 SNR=  11.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.48 rate=     4.491 delay=     6.972
+FRING3: Ant(16): Phas=  4.45 rate=     4.353 delay=     6.933
+FRING3: Ant(17): Phas=  4.51 rate=     4.382 delay=     6.623
+FRING3: Ant(18): Phas=  4.39 rate=     3.992 delay=     6.304
+FRING3: Ant(19): Phas=  4.37 rate=     3.961 delay=     6.208
+FRING3: Ant(20): Phas=  5.09 rate=     4.647 delay=     7.446
+FRING3: Ant(21): Phas=  5.40 rate=     4.797 delay=     8.214
+FRING3: Ant(22): Phas=  4.85 rate=     4.672 delay=     6.984
+FRING3: Time=   0/ 11 45 13, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   1.1
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   5.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   6.7
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   4.5
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   2.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   1.5
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -170.0 SNR=   2.9
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   2.3
+FRING3: Ant= 15 ref= 19 IF=  1 R=      0.00 D=     -230.0 SNR=   2.3
+FRING3: Ant= 20 ref= 19 IF=  1 R=      0.00 D=     -300.0 SNR=   1.5
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-193.4 rate=    -63.67 delay=     49.50 SNR=  10.1
+FRING3: Ant(16): Phas= 121.9 rate=      5.78 delay=     81.02 SNR=   7.3
+FRING3: Ant(17): Phas= 116.5 rate=    -11.89 delay=     43.86 SNR=  12.1
+FRING3: Ant(18): Phas= 174.1 rate=      0.16 delay=      2.54 SNR=  11.0
+FRING3: Ant(19): Phas=  10.5 rate=      5.28 delay=    101.67 SNR=  10.6
+FRING3: Ant(21): Phas= 110.9 rate=     10.96 delay=    -65.93 SNR=   9.5
+FRING3: Ant(22): Phas= 155.0 rate=    -26.77 delay=    254.73 SNR=  12.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.69 rate=     5.442 delay=     8.054
+FRING3: Ant(16): Phas=  7.85 rate=     4.643 delay=     9.459
+FRING3: Ant(17): Phas=  4.73 rate=     4.097 delay=     6.879
+FRING3: Ant(18): Phas=  5.20 rate=     4.459 delay=     7.210
+FRING3: Ant(19): Phas=  5.41 rate=     4.528 delay=     7.783
+FRING3: Ant(21): Phas=  6.02 rate=     4.707 delay=     8.219
+FRING3: Ant(22): Phas=  4.75 rate=     4.504 delay=     6.997
+FRING3: Time=   0/ 11 45 18, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.156E+04 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   2.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   2.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=     -200.0 SNR=   3.7
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   3.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      210.0 SNR=   5.0
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   2.5
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   2.4
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 168.8 rate=     -0.00 delay=     62.46 SNR=   9.7
+FRING3: Ant(16): Phas= 129.1 rate=      0.00 delay=    126.27 SNR=  12.5
+FRING3: Ant(17): Phas= 100.5 rate=     -0.00 delay=     88.10 SNR=  11.4
+FRING3: Ant(18): Phas= 130.0 rate=     -0.00 delay=     30.32 SNR=  13.8
+FRING3: Ant(19): Phas= -10.1 rate=     -0.00 delay=    212.28 SNR=  13.3
+FRING3: Ant(20): Phas= -95.9 rate=     -0.00 delay=    178.06 SNR=  11.2
+FRING3: Ant(21): Phas= 137.2 rate=     -0.00 delay=    -74.86 SNR=  11.6
+FRING3: Ant(22): Phas= 162.6 rate=      0.00 delay=    258.42 SNR=  11.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.91 rate=   683.567 delay=     7.488
+FRING3: Ant(16): Phas=  4.59 rate=   648.429 delay=     6.628
+FRING3: Ant(17): Phas=  5.01 rate=   677.178 delay=     6.814
+FRING3: Ant(18): Phas=  4.16 rate=   616.243 delay=     6.135
+FRING3: Ant(19): Phas=  4.32 rate=   605.800 delay=     6.492
+FRING3: Ant(20): Phas=  5.13 rate=   656.059 delay=     6.965
+FRING3: Ant(21): Phas=  4.93 rate=   787.941 delay=     7.291
+FRING3: Ant(22): Phas=  4.86 rate=   699.745 delay=     7.615
+FRING3: Time=   0/ 11 45 18, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.156E+04 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      190.0 SNR=   2.1
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      -50.0 SNR=   2.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   3.6
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   5.8
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=  10.0
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   2.1
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   2.5
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   2.7
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-172.7 rate=      0.00 delay=     54.13 SNR=  12.6
+FRING3: Ant(16): Phas= 103.8 rate=      0.00 delay=    137.62 SNR=  12.9
+FRING3: Ant(17): Phas=  89.4 rate=      0.00 delay=     22.33 SNR=  12.4
+FRING3: Ant(18): Phas=-186.5 rate=      0.00 delay=     -6.95 SNR=  12.7
+FRING3: Ant(19): Phas=  28.5 rate=      0.00 delay=    121.67 SNR=  10.2
+FRING3: Ant(20): Phas= -85.1 rate=      0.00 delay=    115.30 SNR=  12.3
+FRING3: Ant(21): Phas= -68.3 rate=     -0.00 delay=    268.64 SNR=  11.4
+FRING3: Ant(22): Phas=-185.5 rate=      0.00 delay=    241.79 SNR=  12.4
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.54 rate=   657.747 delay=     6.651
+FRING3: Ant(16): Phas=  4.43 rate=   692.570 delay=     6.658
+FRING3: Ant(17): Phas=  4.61 rate=   725.517 delay=     6.787
+FRING3: Ant(18): Phas=  4.51 rate=   664.654 delay=     6.634
+FRING3: Ant(19): Phas=  5.61 rate=   705.484 delay=     8.128
+FRING3: Ant(20): Phas=  4.64 rate=   694.061 delay=     6.607
+FRING3: Ant(21): Phas=  5.03 rate=   818.485 delay=     7.126
+FRING3: Ant(22): Phas=  4.63 rate=   669.777 delay=     6.813
+Ant(22): Phas=  4.63 rate=   669.777 delay=     6.813
+FRING3: Time=   0/ 11 45 23, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   3.2
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   5.7
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   1.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   4.9
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   2.7
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   2.7
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -90.0 SNR=   2.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   5.9
+FRING3: Ant= 17 ref= 19 IF=  1 R=      0.00 D=     -130.0 SNR=   2.5
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-181.6 rate=    -46.91 delay=     58.70 SNR=   9.0
+FRING3: Ant(16): Phas= 117.1 rate=    -26.35 delay=    182.43 SNR=  10.7
+FRING3: Ant(17): Phas= 103.2 rate=     -7.50 delay=    125.38 SNR=  11.4
+FRING3: Ant(18): Phas= 141.6 rate=      4.64 delay=     -4.91 SNR=  11.7
+FRING3: Ant(19): Phas=  -2.4 rate=     -8.23 delay=    191.01 SNR=  11.8
+FRING3: Ant(20): Phas= -86.0 rate=    -15.42 delay=    154.83 SNR=  11.7
+FRING3: Ant(21): Phas= 161.2 rate=     -9.19 delay=    -37.77 SNR=   8.1
+FRING3: Ant(22): Phas=-176.8 rate=    -26.99 delay=    200.54 SNR=   9.9
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.37 rate=     4.945 delay=     9.319
+FRING3: Ant(16): Phas=  5.35 rate=     4.448 delay=     7.279
+FRING3: Ant(17): Phas=  5.04 rate=     4.407 delay=     7.221
+FRING3: Ant(18): Phas=  4.91 rate=     4.585 delay=     7.157
+FRING3: Ant(19): Phas=  4.87 rate=     4.168 delay=     6.829
+FRING3: Ant(20): Phas=  4.89 rate=     4.147 delay=     7.082
+FRING3: Ant(21): Phas=  7.09 rate=     5.486 delay=    10.232
+FRING3: Ant(22): Phas=  5.79 rate=     4.587 delay=     7.403
+FRING3: Time=   0/ 11 45 23, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   6.9
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   3.7
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   5.6
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   5.0
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   2.3
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=     -130.0 SNR=   2.2
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   1.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      280.0 SNR=   2.6
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=     -220.0 SNR=   1.8
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-202.8 rate=    -15.54 delay=     29.36 SNR=  10.2
+FRING3: Ant(16): Phas=  92.0 rate=     15.63 delay=     81.10 SNR=  11.6
+FRING3: Ant(17): Phas= 103.9 rate=    -21.86 delay=     78.19 SNR=  11.1
+FRING3: Ant(18): Phas= 193.4 rate=    -77.92 delay=     47.55 SNR=  11.0
+FRING3: Ant(19): Phas=  33.7 rate=     19.18 delay=    181.09 SNR=  11.6
+FRING3: Ant(20): Phas= 274.7 rate=      0.38 delay=     59.90 SNR=  11.4
+FRING3: Ant(22): Phas=-189.4 rate=    -32.07 delay=    198.12 SNR=  10.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.61 rate=     4.958 delay=     8.556
+FRING3: Ant(16): Phas=  4.94 rate=     5.001 delay=     7.255
+FRING3: Ant(17): Phas=  5.14 rate=     4.959 delay=     7.560
+FRING3: Ant(18): Phas=  5.20 rate=     4.647 delay=     7.721
+FRING3: Ant(19): Phas=  4.93 rate=     4.534 delay=     7.930
+FRING3: Ant(20): Phas=  5.04 rate=     4.791 delay=     7.584
+FRING3: Ant(22): Phas=  5.68 rate=     5.110 delay=     7.747
+FRING3: Time=   0/ 11 45 28, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   3.2
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=     -210.0 SNR=   2.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   2.7
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   2.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      -60.0 SNR=   2.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   4.6
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -80.0 SNR=   2.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   7.5
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-218.6 rate=     90.78 delay=     46.46 SNR=   8.9
+FRING3: Ant(16): Phas=-162.8 rate=    204.71 delay=   -257.50 SNR=   7.6
+FRING3: Ant(17): Phas=  99.9 rate=     93.25 delay=     82.33 SNR=   9.3
+FRING3: Ant(18): Phas=  22.5 rate=     56.34 delay=   -390.54 SNR=   7.9
+FRING3: Ant(19): Phas= -28.7 rate=     -7.29 delay=    -60.89 SNR=   7.6
+FRING3: Ant(20): Phas= -77.7 rate=    112.82 delay=    332.46 SNR=   7.8
+FRING3: Ant(21): Phas= 181.5 rate=     18.75 delay=    -53.10 SNR=   8.2
+FRING3: Ant(22): Phas=-159.3 rate=    -92.63 delay=    342.82 SNR=   7.6
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.46 rate=    10.865 delay=    11.138
+FRING3: Ant(16): Phas=  7.53 rate=    12.450 delay=    12.280
+FRING3: Ant(17): Phas=  6.14 rate=     9.907 delay=    10.300
+FRING3: Ant(18): Phas=  7.22 rate=    14.435 delay=    11.958
+FRING3: Ant(19): Phas=  7.50 rate=    11.907 delay=    12.428
+FRING3: Ant(20): Phas=  7.31 rate=    10.809 delay=    11.324
+FRING3: Ant(21): Phas=  7.01 rate=    11.431 delay=    11.119
+FRING3: Ant(22): Phas=  7.55 rate=    11.994 delay=    13.661
+FRING3: Time=   0/ 11 45 28, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=     -160.0 SNR=   3.0
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   4.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   4.3
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -40.0 SNR=   3.2
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   2.8
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   3.3
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -90.0 SNR=   4.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      270.0 SNR=   5.3
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 142.8 rate=     19.56 delay=    114.99 SNR=  10.4
+FRING3: Ant(16): Phas= 137.4 rate=    -42.98 delay=     65.26 SNR=   9.9
+FRING3: Ant(17): Phas= 109.0 rate=     34.71 delay=     69.21 SNR=  10.4
+FRING3: Ant(18): Phas= 139.7 rate=    -38.49 delay=     10.39 SNR=  11.2
+FRING3: Ant(19): Phas=  36.2 rate=     13.03 delay=    175.48 SNR=  11.4
+FRING3: Ant(20): Phas= -57.6 rate=    -27.24 delay=    104.58 SNR=  10.1
+FRING3: Ant(21): Phas= 142.4 rate=    -34.96 delay=    -73.24 SNR=   8.6
+FRING3: Ant(22): Phas= 159.3 rate=    -14.72 delay=    299.83 SNR=  10.6
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.51 rate=     8.250 delay=     7.755
+FRING3: Ant(16): Phas=  5.77 rate=     8.325 delay=     8.105
+FRING3: Ant(17): Phas=  5.49 rate=     7.978 delay=     7.490
+FRING3: Ant(18): Phas=  5.11 rate=     7.575 delay=     7.385
+FRING3: Ant(19): Phas=  5.02 rate=     7.257 delay=     6.890
+FRING3: Ant(20): Phas=  5.65 rate=     8.636 delay=     7.578
+FRING3: Ant(21): Phas=  6.63 rate=     8.632 delay=    10.541
+FRING3: Ant(22): Phas=  5.40 rate=     7.822 delay=     7.839
+FRING3: Time=   0/ 11 45 33, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   5.1
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   2.4
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   3.7
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   6.4
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      190.0 SNR=   5.6
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      190.0 SNR=   5.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -60.0 SNR=   2.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      270.0 SNR=   3.6
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-143.0 rate=    -14.20 delay=     30.47 SNR=  12.4
+FRING3: Ant(16): Phas= 168.5 rate=     38.70 delay=     75.70 SNR=   9.2
+FRING3: Ant(17): Phas=  90.5 rate=      7.17 delay=    128.52 SNR=  12.3
+FRING3: Ant(18): Phas= 114.2 rate=      5.78 delay=     40.08 SNR=  13.1
+FRING3: Ant(19): Phas=  14.6 rate=     -0.67 delay=    209.49 SNR=  11.8
+FRING3: Ant(20): Phas= -38.7 rate=    -11.09 delay=    191.18 SNR=  12.5
+FRING3: Ant(21): Phas= 137.7 rate=     30.14 delay=    -67.33 SNR=  11.7
+FRING3: Ant(22): Phas=-149.4 rate=     17.92 delay=    250.54 SNR=  12.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.62 rate=     4.313 delay=     6.852
+FRING3: Ant(16): Phas=  6.24 rate=     4.490 delay=     7.937
+FRING3: Ant(17): Phas=  4.66 rate=     4.128 delay=     6.274
+FRING3: Ant(18): Phas=  4.36 rate=     4.487 delay=     7.234
+FRING3: Ant(19): Phas=  4.85 rate=     4.272 delay=     6.773
+FRING3: Ant(20): Phas=  4.58 rate=     4.753 delay=     6.694
+FRING3: Ant(21): Phas=  4.89 rate=     4.439 delay=     6.974
+FRING3: Ant(22): Phas=  4.48 rate=     3.981 delay=     6.426
+FRING3: Time=   0/ 11 45 33, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   4.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   3.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   4.8
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   6.2
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   7.8
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      190.0 SNR=   3.6
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   2.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      270.0 SNR=   6.3
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-193.2 rate=     65.11 delay=     86.35 SNR=  11.3
+FRING3: Ant(16): Phas= 134.8 rate=     18.22 delay=    162.87 SNR=  10.8
+FRING3: Ant(17): Phas= 121.2 rate=     47.31 delay=    108.76 SNR=  11.8
+FRING3: Ant(18): Phas= 118.5 rate=     39.53 delay=      6.28 SNR=  12.4
+FRING3: Ant(19): Phas=  73.4 rate=     34.13 delay=    246.76 SNR=  12.0
+FRING3: Ant(20): Phas= -21.3 rate=     24.25 delay=    238.38 SNR=  11.4
+FRING3: Ant(21): Phas=-168.8 rate=   -103.27 delay=    100.45 SNR=  11.2
+FRING3: Ant(22): Phas= 202.6 rate=     22.73 delay=    159.25 SNR=   9.9
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.08 rate=     4.461 delay=     7.062
+FRING3: Ant(16): Phas=  5.29 rate=     4.410 delay=     7.609
+FRING3: Ant(17): Phas=  4.84 rate=     4.766 delay=     7.215
+FRING3: Ant(18): Phas=  4.63 rate=     4.173 delay=     6.843
+FRING3: Ant(19): Phas=  4.79 rate=     4.215 delay=     6.892
+FRING3: Ant(20): Phas=  5.03 rate=     4.202 delay=     7.478
+FRING3: Ant(21): Phas=  5.10 rate=     4.568 delay=     7.085
+FRING3: Ant(22): Phas=  5.81 rate=     4.667 delay=     8.553
+FRING3: Time=   0/ 11 45 38, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   2.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   4.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   3.5
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   4.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   7.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   1.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   2.1
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      290.0 SNR=   4.2
+FRING3: Ant= 20 ref= 16 IF=  1 R=      0.00 D=      160.0 SNR=   2.1
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 169.9 rate=     33.45 delay=    153.27 SNR=   7.4
+FRING3: Ant(16): Phas= 177.8 rate=    -12.46 delay=    129.75 SNR=  10.4
+FRING3: Ant(17): Phas=  93.4 rate=      3.56 delay=     58.33 SNR=  10.7
+FRING3: Ant(18): Phas= 145.0 rate=    -10.24 delay=     51.28 SNR=  10.4
+FRING3: Ant(19): Phas=  59.3 rate=    -43.30 delay=    210.64 SNR=   9.3
+FRING3: Ant(20): Phas= -54.2 rate=     -7.30 delay=    191.00 SNR=  10.7
+FRING3: Ant(21): Phas= 189.8 rate=    -67.49 delay=    -72.96 SNR=   9.4
+FRING3: Ant(22): Phas=-153.3 rate=    -34.78 delay=    278.02 SNR=  10.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  7.77 rate=     9.112 delay=    10.500
+FRING3: Ant(16): Phas=  5.50 rate=     8.531 delay=     7.891
+FRING3: Ant(17): Phas=  5.37 rate=     8.387 delay=     7.246
+FRING3: Ant(18): Phas=  5.50 rate=     8.285 delay=     7.813
+FRING3: Ant(19): Phas=  6.14 rate=     8.775 delay=     8.521
+FRING3: Ant(20): Phas=  5.36 rate=     8.440 delay=     7.417
+FRING3: Ant(21): Phas=  6.08 rate=     9.260 delay=     7.809
+FRING3: Ant(22): Phas=  5.69 rate=     8.537 delay=     7.739
+FRING3: Time=   0/ 11 45 38, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   5.1
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   2.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   2.0
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   2.9
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   7.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   2.3
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   3.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   5.1
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=  25.5 rate=    -20.33 delay=    680.36 SNR=   7.8
+FRING3: Ant(16): Phas=  30.6 rate=   -361.16 delay=    183.07 SNR=   8.6
+FRING3: Ant(17): Phas= 111.5 rate=    -17.65 delay=    154.25 SNR=   9.1
+FRING3: Ant(18): Phas=-210.4 rate=    -62.03 delay=     68.49 SNR=   8.9
+FRING3: Ant(19): Phas=  78.8 rate=    -84.14 delay=    163.33 SNR=   9.1
+FRING3: Ant(20): Phas= -38.7 rate=    -28.61 delay=    116.66 SNR=   8.5
+FRING3: Ant(21): Phas= 177.9 rate=    103.88 delay=    -10.27 SNR=   7.7
+FRING3: Ant(22): Phas= 188.9 rate=   -204.74 delay=    510.45 SNR=   8.0
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  7.38 rate=    12.725 delay=    12.635
+FRING3: Ant(16): Phas=  6.64 rate=    12.303 delay=    10.811
+FRING3: Ant(17): Phas=  6.30 rate=    10.990 delay=    10.178
+FRING3: Ant(18): Phas=  6.42 rate=    10.996 delay=    10.273
+FRING3: Ant(19): Phas=  6.27 rate=    10.575 delay=    10.065
+FRING3: Ant(20): Phas=  6.73 rate=    11.017 delay=    11.081
+FRING3: Ant(21): Phas=  7.41 rate=    11.894 delay=    11.069
+FRING3: Ant(22): Phas=  7.12 rate=    12.921 delay=    10.951
+FRING3: Time=   0/ 11 45 43, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   2.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   2.7
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   3.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   3.3
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   2.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.2
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -110.0 SNR=   1.5
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   2.0
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=     -170.0 SNR=   1.6
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-176.6 rate=    -46.60 delay=      2.23 SNR=  11.4
+FRING3: Ant(16): Phas= 160.8 rate=     10.21 delay=     61.79 SNR=  10.9
+FRING3: Ant(17): Phas= 101.0 rate=      1.99 delay=     72.10 SNR=  12.7
+FRING3: Ant(18): Phas= 139.7 rate=     12.31 delay=     12.55 SNR=  12.6
+FRING3: Ant(19): Phas=  70.6 rate=     -8.53 delay=    177.00 SNR=  11.8
+FRING3: Ant(20): Phas= -27.2 rate=      4.90 delay=    158.92 SNR=  12.1
+FRING3: Ant(22): Phas=-147.6 rate=     32.05 delay=    209.42 SNR=  11.6
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.04 rate=     4.590 delay=     6.900
+FRING3: Ant(16): Phas=  5.27 rate=     4.549 delay=     7.193
+FRING3: Ant(17): Phas=  4.53 rate=     4.090 delay=     6.313
+FRING3: Ant(18): Phas=  4.55 rate=     4.171 delay=     6.337
+FRING3: Ant(19): Phas=  4.84 rate=     4.348 delay=     6.749
+FRING3: Ant(20): Phas=  4.75 rate=     4.367 delay=     7.135
+FRING3: Ant(22): Phas=  4.92 rate=     4.427 delay=     6.980
+FRING3: Time=   0/ 11 45 43, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   5.2
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   3.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   5.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   3.8
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   9.7
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   2.2
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -110.0 SNR=   2.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   5.9
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-171.9 rate=     -9.92 delay=     80.23 SNR=  11.9
+FRING3: Ant(16): Phas= 162.5 rate=    -13.15 delay=     76.60 SNR=  11.4
+FRING3: Ant(17): Phas= 133.6 rate=     -9.16 delay=     44.32 SNR=  12.1
+FRING3: Ant(18): Phas= 157.4 rate=     35.81 delay=     22.15 SNR=  11.8
+FRING3: Ant(19): Phas= 103.5 rate=     20.74 delay=    205.19 SNR=  12.8
+FRING3: Ant(20): Phas= -16.2 rate=     -3.86 delay=    139.74 SNR=  12.0
+FRING3: Ant(21): Phas= 201.3 rate=     29.30 delay=    -11.57 SNR=   9.0
+FRING3: Ant(22): Phas=-162.8 rate=    -38.74 delay=    220.41 SNR=  10.0
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.80 rate=     4.195 delay=     7.180
+FRING3: Ant(16): Phas=  5.03 rate=     4.262 delay=     7.132
+FRING3: Ant(17): Phas=  4.73 rate=     4.185 delay=     6.713
+FRING3: Ant(18): Phas=  4.84 rate=     4.502 delay=     7.201
+FRING3: Ant(19): Phas=  4.49 rate=     3.985 delay=     6.680
+FRING3: Ant(20): Phas=  4.78 rate=     4.232 delay=     7.100
+FRING3: Ant(21): Phas=  6.35 rate=     4.967 delay=     8.356
+FRING3: Ant(22): Phas=  5.74 rate=     4.411 delay=     8.058
+FRING3: Time=   0/ 11 45 48, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   3.0
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   4.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   2.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=     -280.0 SNR=   2.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   5.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   3.0
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   1.9
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      290.0 SNR=   6.7
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=      280.0 SNR=   1.8
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-157.4 rate=     40.51 delay=    162.69 SNR=   9.0
+FRING3: Ant(16): Phas= 173.9 rate=     49.72 delay=    150.72 SNR=   9.8
+FRING3: Ant(17): Phas=  86.3 rate=     -5.81 delay=     89.53 SNR=   9.4
+FRING3: Ant(18): Phas=  28.6 rate=     35.67 delay=   -386.84 SNR=   8.4
+FRING3: Ant(19): Phas=  45.5 rate=     27.58 delay=    118.16 SNR=   9.7
+FRING3: Ant(20): Phas= -29.9 rate=    -18.69 delay=    137.24 SNR=   9.2
+FRING3: Ant(22): Phas=-133.8 rate=    -65.30 delay=    383.15 SNR=   7.9
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.35 rate=     9.908 delay=    10.206
+FRING3: Ant(16): Phas=  5.83 rate=     9.043 delay=     8.252
+FRING3: Ant(17): Phas=  6.07 rate=     9.386 delay=     8.875
+FRING3: Ant(18): Phas=  6.84 rate=    10.133 delay=     9.474
+FRING3: Ant(19): Phas=  5.92 rate=     9.712 delay=    10.283
+FRING3: Ant(20): Phas=  6.26 rate=     9.360 delay=     9.159
+FRING3: Ant(22): Phas=  7.25 rate=    11.441 delay=    14.059
+FRING3: Time=   0/ 11 45 48, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   2.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   7.2
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   2.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   2.8
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   3.1
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   3.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      280.0 SNR=   2.1
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 136.7 rate=   -123.31 delay=    117.90 SNR=   9.7
+FRING3: Ant(16): Phas= 184.3 rate=    110.52 delay=     27.92 SNR=   9.2
+FRING3: Ant(17): Phas= 131.2 rate=     11.95 delay=     80.10 SNR=  11.2
+FRING3: Ant(18): Phas= 161.6 rate=    -20.34 delay=    -38.24 SNR=  10.3
+FRING3: Ant(19): Phas=  99.1 rate=     -8.44 delay=    181.92 SNR=  11.3
+FRING3: Ant(20): Phas=  -1.9 rate=      4.33 delay=    305.18 SNR=   8.8
+FRING3: Ant(21): Phas= 195.3 rate=    -55.07 delay=     -1.77 SNR=   9.2
+FRING3: Ant(22): Phas=-177.0 rate=     61.02 delay=    179.25 SNR=  10.2
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.93 rate=     8.429 delay=     8.182
+FRING3: Ant(16): Phas=  6.22 rate=     8.900 delay=    10.373
+FRING3: Ant(17): Phas=  5.12 rate=     7.928 delay=     7.642
+FRING3: Ant(18): Phas=  5.54 rate=     8.417 delay=     7.976
+FRING3: Ant(19): Phas=  5.08 rate=     7.823 delay=     7.232
+FRING3: Ant(20): Phas=  6.48 rate=     8.712 delay=    10.368
+FRING3: Ant(21): Phas=  6.22 rate=    12.310 delay=     9.709
+FRING3: Ant(22): Phas=  5.63 rate=     8.329 delay=     8.488
+FRING3: Time=   0/ 11 45 53, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   3.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   4.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   3.5
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   4.3
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=  12.9
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   4.6
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -110.0 SNR=   3.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   6.0
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-176.8 rate=      9.84 delay=     71.79 SNR=  11.1
+FRING3: Ant(16): Phas= 190.2 rate=     10.75 delay=     85.26 SNR=  12.1
+FRING3: Ant(17): Phas= 113.9 rate=    -18.06 delay=     95.40 SNR=  12.2
+FRING3: Ant(18): Phas= 120.3 rate=    -16.54 delay=      3.11 SNR=  13.2
+FRING3: Ant(19): Phas=  69.0 rate=     -4.20 delay=    131.73 SNR=  13.2
+FRING3: Ant(20): Phas= -40.9 rate=     33.10 delay=    135.82 SNR=  12.2
+FRING3: Ant(21): Phas= 180.9 rate=    -53.28 delay=   -126.93 SNR=  12.6
+FRING3: Ant(22): Phas=-148.6 rate=     -5.15 delay=    250.30 SNR=  11.4
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.16 rate=     4.255 delay=     6.881
+FRING3: Ant(16): Phas=  4.74 rate=     4.104 delay=     6.479
+FRING3: Ant(17): Phas=  4.71 rate=     4.034 delay=     6.673
+FRING3: Ant(18): Phas=  4.36 rate=     4.153 delay=     6.067
+FRING3: Ant(19): Phas=  4.34 rate=     3.859 delay=     5.906
+FRING3: Ant(20): Phas=  4.71 rate=     4.271 delay=     6.536
+FRING3: Ant(21): Phas=  4.56 rate=     4.858 delay=     6.376
+FRING3: Ant(22): Phas=  5.03 rate=     4.398 delay=     6.780
+FRING3: Time=   0/ 11 45 53, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   4.9
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   5.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   6.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   2.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=  10.8
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   3.7
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -120.0 SNR=   3.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      210.0 SNR=   3.1
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-185.8 rate=     -1.89 delay=    140.38 SNR=  11.3
+FRING3: Ant(16): Phas=-188.3 rate=    -22.34 delay=    132.20 SNR=  10.6
+FRING3: Ant(17): Phas= 145.9 rate=    -24.92 delay=     68.81 SNR=  13.1
+FRING3: Ant(18): Phas=-191.6 rate=    -29.22 delay=    -21.83 SNR=  11.9
+FRING3: Ant(19): Phas=  87.4 rate=     21.25 delay=    118.84 SNR=  13.7
+FRING3: Ant(20): Phas= -19.1 rate=      2.33 delay=    167.99 SNR=  12.4
+FRING3: Ant(21): Phas=-147.5 rate=     53.38 delay=   -168.80 SNR=  11.3
+FRING3: Ant(22): Phas= 205.5 rate=      5.50 delay=    199.52 SNR=  11.5
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.07 rate=     4.150 delay=     7.125
+FRING3: Ant(16): Phas=  5.41 rate=     4.474 delay=     6.932
+FRING3: Ant(17): Phas=  4.37 rate=     4.019 delay=     5.905
+FRING3: Ant(18): Phas=  4.80 rate=     3.872 delay=     6.551
+FRING3: Ant(19): Phas=  4.17 rate=     3.643 delay=     5.730
+FRING3: Ant(20): Phas=  4.62 rate=     4.193 delay=     6.167
+FRING3: Ant(21): Phas=  5.09 rate=     4.753 delay=     6.562
+FRING3: Ant(22): Phas=  5.00 rate=     4.227 delay=     6.255
+FRING3: Time=   0/ 11 45 58, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   3.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   2.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   4.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   4.0
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   5.5
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.2
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -110.0 SNR=   2.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      290.0 SNR=   4.7
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-157.1 rate=     -3.88 delay=    123.99 SNR=  10.1
+FRING3: Ant(16): Phas=-169.2 rate=    118.13 delay=    139.72 SNR=   9.6
+FRING3: Ant(17): Phas= 136.8 rate=    -22.31 delay=    113.53 SNR=  10.4
+FRING3: Ant(18): Phas=-187.5 rate=     -0.29 delay=     54.92 SNR=  10.1
+FRING3: Ant(19): Phas= 101.3 rate=    -64.86 delay=    217.80 SNR=  10.5
+FRING3: Ant(20): Phas=  -1.6 rate=     16.97 delay=    128.38 SNR=   9.1
+FRING3: Ant(21): Phas=-173.4 rate=     44.97 delay=    -26.69 SNR=  10.2
+FRING3: Ant(22): Phas=-130.3 rate=     -1.94 delay=    272.11 SNR=  10.5
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.66 rate=     8.360 delay=     8.322
+FRING3: Ant(16): Phas=  5.97 rate=     8.750 delay=     8.741
+FRING3: Ant(17): Phas=  5.53 rate=     8.289 delay=     7.715
+FRING3: Ant(18): Phas=  5.66 rate=     8.132 delay=     8.374
+FRING3: Ant(19): Phas=  5.44 rate=     8.185 delay=     8.040
+FRING3: Ant(20): Phas=  6.28 rate=     9.711 delay=     8.828
+FRING3: Ant(21): Phas=  5.64 rate=     9.299 delay=     8.130
+FRING3: Ant(22): Phas=  5.48 rate=     8.458 delay=     8.127
+FRING3: Time=   0/ 11 45 58, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   5.1
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   2.4
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   5.3
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   4.7
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   2.8
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   2.2
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -120.0 SNR=   2.7
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   6.1
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-240.4 rate=    -82.80 delay=    -31.97 SNR=   7.8
+FRING3: Ant(16): Phas= 164.1 rate=   -180.26 delay=    -90.61 SNR=   7.1
+FRING3: Ant(17): Phas= 139.3 rate=     22.98 delay=     71.94 SNR=   8.7
+FRING3: Ant(18): Phas= 150.8 rate=    -95.11 delay=    -56.38 SNR=   8.2
+FRING3: Ant(19): Phas= 159.9 rate=     69.45 delay=    200.07 SNR=   9.0
+FRING3: Ant(20): Phas= -53.9 rate=      7.78 delay=    276.88 SNR=   7.1
+FRING3: Ant(21): Phas= 192.2 rate=    -91.39 delay=   -178.68 SNR=   8.5
+FRING3: Ant(22): Phas= 212.6 rate=    -70.08 delay=    338.52 SNR=   8.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  7.32 rate=    10.461 delay=    11.332
+FRING3: Ant(16): Phas=  8.05 rate=    10.447 delay=    11.499
+FRING3: Ant(17): Phas=  6.58 rate=     9.505 delay=     9.691
+FRING3: Ant(18): Phas=  6.98 rate=    10.520 delay=    10.838
+FRING3: Ant(19): Phas=  6.39 rate=     9.571 delay=     9.980
+FRING3: Ant(20): Phas=  8.02 rate=    10.974 delay=    10.812
+FRING3: Ant(21): Phas=  6.76 rate=    10.394 delay=    10.564
+FRING3: Ant(22): Phas=  6.53 rate=     9.835 delay=    10.246
+FRING3: Time=   0/ 11 46 03, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   5.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   5.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   5.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   5.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   3.0
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   4.0
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   2.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   2.3
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 178.3 rate=    -24.29 delay=    189.49 SNR=  10.7
+FRING3: Ant(16): Phas=-137.8 rate=     20.98 delay=     69.77 SNR=  11.5
+FRING3: Ant(17): Phas=  96.7 rate=     31.24 delay=     22.58 SNR=  12.5
+FRING3: Ant(18): Phas= 146.3 rate=     -8.85 delay=     28.01 SNR=  13.2
+FRING3: Ant(19): Phas=  99.7 rate=      2.83 delay=    130.67 SNR=  13.2
+FRING3: Ant(20): Phas=   2.3 rate=      3.30 delay=    166.74 SNR=  13.6
+FRING3: Ant(21): Phas=-122.3 rate=     99.64 delay=    -42.81 SNR=  11.5
+FRING3: Ant(22): Phas=-161.3 rate=    -10.97 delay=    263.37 SNR=  12.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.36 rate=     4.234 delay=     7.719
+FRING3: Ant(16): Phas=  4.98 rate=     4.009 delay=     6.841
+FRING3: Ant(17): Phas=  4.60 rate=     4.057 delay=     6.678
+FRING3: Ant(18): Phas=  4.34 rate=     3.948 delay=     6.187
+FRING3: Ant(19): Phas=  4.35 rate=     3.822 delay=     6.083
+FRING3: Ant(20): Phas=  4.21 rate=     4.010 delay=     5.952
+FRING3: Ant(21): Phas=  4.99 rate=     4.919 delay=     6.562
+FRING3: Ant(22): Phas=  4.48 rate=     4.012 delay=     6.522
+FRING3: Time=   0/ 11 46 03, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   3.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      190.0 SNR=   4.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   4.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   2.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   7.0
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=     -190.0 SNR=   3.0
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -80.0 SNR=   4.5
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.8
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-188.2 rate=    -23.26 delay=     35.20 SNR=  11.7
+FRING3: Ant(16): Phas=-151.8 rate=    -20.29 delay=    137.40 SNR=  10.1
+FRING3: Ant(17): Phas= 129.4 rate=    -20.19 delay=    108.61 SNR=  12.9
+FRING3: Ant(18): Phas= 155.1 rate=      7.38 delay=     41.66 SNR=  11.6
+FRING3: Ant(19): Phas= 124.6 rate=     19.85 delay=    114.76 SNR=  12.5
+FRING3: Ant(20): Phas=-142.9 rate=     70.16 delay=   -200.06 SNR=  10.3
+FRING3: Ant(21): Phas=-128.0 rate=    -56.99 delay=    -41.97 SNR=  11.7
+FRING3: Ant(22): Phas=-165.8 rate=    -17.47 delay=    230.73 SNR=  13.2
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.90 rate=     4.301 delay=     7.418
+FRING3: Ant(16): Phas=  5.69 rate=     4.545 delay=     9.269
+FRING3: Ant(17): Phas=  4.43 rate=     4.128 delay=     6.606
+FRING3: Ant(18): Phas=  4.93 rate=     3.993 delay=     7.288
+FRING3: Ant(19): Phas=  4.60 rate=     3.996 delay=     6.541
+FRING3: Ant(20): Phas=  5.57 rate=     5.564 delay=    10.288
+FRING3: Ant(21): Phas=  4.88 rate=     4.534 delay=     7.899
+FRING3: Ant(22): Phas=  4.34 rate=     4.070 delay=     6.300
+FRING3: Time=   0/ 11 46 08, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   3.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   2.4
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   5.2
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   4.5
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   9.3
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=     -100.0 SNR=   2.7
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   2.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   6.9
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-188.4 rate=     23.30 delay=     69.86 SNR=   5.2
+FRING3: Ant(16): Phas=-102.8 rate=     55.74 delay=    130.03 SNR=   9.1
+FRING3: Ant(17): Phas= 142.5 rate=     37.21 delay=     75.97 SNR=   9.1
+FRING3: Ant(18): Phas= 147.4 rate=     46.57 delay=    112.24 SNR=   9.0
+FRING3: Ant(19): Phas= 111.1 rate=      9.64 delay=    160.12 SNR=   9.5
+FRING3: Ant(20): Phas=  77.4 rate=    262.81 delay=   -442.11 SNR=   1.4
+FRING3: Ant(21): Phas=-112.9 rate=     87.40 delay=    -73.32 SNR=   6.3
+FRING3: Ant(22): Phas=-168.3 rate=     -5.98 delay=    217.50 SNR=   5.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas= 11.06 rate=    15.704 delay=    17.868
+FRING3: Ant(16): Phas=  6.30 rate=    11.221 delay=     9.309
+FRING3: Ant(17): Phas=  6.33 rate=    11.055 delay=     9.890
+FRING3: Ant(18): Phas=  6.34 rate=     8.352 delay=     7.823
+FRING3: Ant(19): Phas=  6.01 rate=    12.700 delay=    12.580
+FRING3: Ant(20): Phas= 41.28 rate=    51.693 delay=    48.844
+FRING3: Ant(21): Phas=  9.14 rate=    12.065 delay=    11.124
+FRING3: Ant(22): Phas=  9.84 rate=    13.048 delay=    12.928
+FRING3: Time=   0/ 11 46 08, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   3.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   3.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   1.6
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   4.7
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   7.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   2.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -60.0 SNR=   2.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      280.0 SNR=   5.2
+FRING3: Ant= 17 ref= 15 IF=  1 R=      0.00 D=      300.0 SNR=   1.5
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-190.1 rate=      7.46 delay=     58.83 SNR=   7.2
+FRING3: Ant(16): Phas=-137.6 rate=     54.48 delay=    255.76 SNR=   8.1
+FRING3: Ant(18): Phas=-175.6 rate=    -41.41 delay=     42.45 SNR=   8.6
+FRING3: Ant(19): Phas= 162.8 rate=      4.74 delay=    105.36 SNR=   8.4
+FRING3: Ant(20): Phas=   5.4 rate=    -46.27 delay=    172.20 SNR=   8.1
+FRING3: Ant(21): Phas= -88.5 rate=    -58.18 delay=     45.04 SNR=   7.7
+FRING3: Ant(22): Phas= 199.6 rate=     40.65 delay=    230.92 SNR=   7.7
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  7.91 rate=    11.378 delay=    11.839
+FRING3: Ant(16): Phas=  7.06 rate=    11.325 delay=     9.961
+FRING3: Ant(18): Phas=  6.64 rate=    10.460 delay=     9.376
+FRING3: Ant(19): Phas=  6.83 rate=     9.626 delay=     9.872
+FRING3: Ant(20): Phas=  7.12 rate=    11.010 delay=    10.681
+FRING3: Ant(21): Phas=  7.47 rate=    11.718 delay=    12.053
+FRING3: Ant(22): Phas=  7.41 rate=    10.519 delay=     9.792
+FRING3: Time=   0/ 11 46 13, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   4.6
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   2.9
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   3.8
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   5.2
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   7.3
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   4.5
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   2.1
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.7
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 151.0 rate=    -59.00 delay=     -2.35 SNR=  10.2
+FRING3: Ant(16): Phas=-107.0 rate=     33.32 delay=    155.31 SNR=  11.9
+FRING3: Ant(17): Phas= 138.4 rate=     54.94 delay=     11.19 SNR=  10.9
+FRING3: Ant(18): Phas= 131.6 rate=     26.84 delay=     36.54 SNR=  12.2
+FRING3: Ant(19): Phas= 115.0 rate=     23.93 delay=    123.44 SNR=  11.5
+FRING3: Ant(20): Phas=   6.2 rate=     32.67 delay=    102.36 SNR=  12.3
+FRING3: Ant(21): Phas= -32.7 rate=    -54.03 delay=    225.54 SNR=  11.0
+FRING3: Ant(22): Phas=-145.4 rate=     40.93 delay=    176.89 SNR=  12.0
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.63 rate=     5.084 delay=     8.116
+FRING3: Ant(16): Phas=  4.81 rate=     4.532 delay=     7.249
+FRING3: Ant(17): Phas=  5.23 rate=     4.585 delay=     7.275
+FRING3: Ant(18): Phas=  4.68 rate=     4.317 delay=     6.886
+FRING3: Ant(19): Phas=  5.00 rate=     4.528 delay=     8.146
+FRING3: Ant(20): Phas=  4.67 rate=     4.320 delay=     6.948
+FRING3: Ant(21): Phas=  5.21 rate=     4.799 delay=     7.759
+FRING3: Ant(22): Phas=  4.78 rate=     4.747 delay=     7.288
+FRING3: Time=   0/ 11 46 13, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   5.6
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   3.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   6.8
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   3.7
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   3.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   4.9
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -280.0 SNR=   2.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   3.0
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-220.4 rate=      9.03 delay=    -35.80 SNR=  10.6
+FRING3: Ant(16): Phas=-115.2 rate=     24.05 delay=     71.14 SNR=  13.2
+FRING3: Ant(17): Phas= 137.2 rate=      5.67 delay=    -25.64 SNR=  12.1
+FRING3: Ant(18): Phas=-183.8 rate=     -1.50 delay=     -3.33 SNR=  12.6
+FRING3: Ant(19): Phas= 143.5 rate=     18.16 delay=    151.28 SNR=  13.4
+FRING3: Ant(20): Phas= -12.5 rate=     25.78 delay=    130.44 SNR=  12.7
+FRING3: Ant(21): Phas= -90.9 rate=     23.10 delay=    -63.01 SNR=  10.8
+FRING3: Ant(22): Phas= 208.2 rate=    -22.03 delay=    350.43 SNR=  10.9
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.38 rate=     4.638 delay=     9.342
+FRING3: Ant(16): Phas=  4.33 rate=     4.235 delay=     7.037
+FRING3: Ant(17): Phas=  4.72 rate=     4.376 delay=     7.814
+FRING3: Ant(18): Phas=  4.56 rate=     4.351 delay=     7.102
+FRING3: Ant(19): Phas=  4.27 rate=     4.173 delay=     6.751
+FRING3: Ant(20): Phas=  4.51 rate=     4.267 delay=     7.650
+FRING3: Ant(21): Phas=  5.32 rate=     5.170 delay=     9.337
+FRING3: Ant(22): Phas=  5.27 rate=     4.512 delay=     9.221
+FRING3: Time=   0/ 11 46 18, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   4.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   4.5
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=     -110.0 SNR=   1.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   7.7
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   6.7
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   2.9
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   1.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   4.6
+FRING3: Ant= 17 ref= 19 IF=  1 R=      0.00 D=      -90.0 SNR=   3.9
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=     -300.0 SNR=   0.9
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-174.6 rate=     14.54 delay=    -21.90 SNR=   8.0
+FRING3: Ant(16): Phas= -79.9 rate=    -19.98 delay=    106.23 SNR=   9.2
+FRING3: Ant(17): Phas=-211.4 rate=    -16.07 delay=     92.47 SNR=   8.8
+FRING3: Ant(18): Phas= 176.8 rate=    -51.09 delay=      6.24 SNR=   9.7
+FRING3: Ant(19): Phas= 122.7 rate=    -37.29 delay=    185.62 SNR=   9.3
+FRING3: Ant(20): Phas=  38.2 rate=     23.88 delay=    108.05 SNR=   6.9
+FRING3: Ant(22): Phas=-144.8 rate=     19.57 delay=    184.40 SNR=   8.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  7.17 rate=     9.225 delay=    12.917
+FRING3: Ant(16): Phas=  6.26 rate=     9.369 delay=     9.942
+FRING3: Ant(17): Phas=  6.49 rate=     9.010 delay=    10.098
+FRING3: Ant(18): Phas=  5.93 rate=     8.380 delay=     9.051
+FRING3: Ant(19): Phas=  6.14 rate=     8.757 delay=     9.372
+FRING3: Ant(20): Phas=  8.35 rate=     9.793 delay=    12.586
+FRING3: Ant(22): Phas=  6.54 rate=     9.278 delay=    10.240
+FRING3: Time=   0/ 11 46 18, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   2.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   3.0
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   5.2
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   2.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.6
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   1.7
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   3.6
+FRING3: Ant= 21 ref= 15 IF=  1 R=      0.00 D=      260.0 SNR=   2.6
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 104.1 rate=    -92.45 delay=   -192.61 SNR=   9.3
+FRING3: Ant(16): Phas= -90.8 rate=    -45.35 delay=    147.94 SNR=   9.4
+FRING3: Ant(17): Phas= 154.9 rate=    -31.83 delay=    103.89 SNR=   9.4
+FRING3: Ant(18): Phas= 165.5 rate=    -11.89 delay=     17.69 SNR=   9.6
+FRING3: Ant(19): Phas=-200.3 rate=      0.40 delay=    182.21 SNR=  10.6
+FRING3: Ant(20): Phas=  17.6 rate=    -28.29 delay=    164.66 SNR=  10.0
+FRING3: Ant(21): Phas= -37.0 rate=    -85.27 delay=    127.70 SNR=   8.5
+FRING3: Ant(22): Phas= 165.6 rate=     15.92 delay=    264.82 SNR=   9.3
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.18 rate=     9.341 delay=     8.933
+FRING3: Ant(16): Phas=  6.10 rate=     8.641 delay=     8.216
+FRING3: Ant(17): Phas=  6.13 rate=     9.453 delay=     8.294
+FRING3: Ant(18): Phas=  5.98 rate=     9.244 delay=     8.376
+FRING3: Ant(19): Phas=  5.41 rate=     8.329 delay=     7.503
+FRING3: Ant(20): Phas=  5.76 rate=     8.351 delay=     7.958
+FRING3: Ant(21): Phas=  6.72 rate=    12.601 delay=    10.929
+FRING3: Ant(22): Phas=  6.18 rate=     9.174 delay=     8.603
+FRING3: Time=   0/ 11 46 23, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=     -130.0 SNR=   2.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   2.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   4.0
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   4.8
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   7.3
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   4.2
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -280.0 SNR=   1.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      280.0 SNR=   2.7
+FRING3: Ant= 21 ref= 15 IF=  1 R=      0.00 D=      150.0 SNR=   2.6
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 165.9 rate=     12.15 delay=     55.39 SNR=  11.6
+FRING3: Ant(16): Phas= -93.6 rate=     17.13 delay=      9.56 SNR=  11.9
+FRING3: Ant(17): Phas= 131.6 rate=     37.93 delay=     -3.13 SNR=  11.6
+FRING3: Ant(18): Phas= 140.4 rate=     30.96 delay=    -37.23 SNR=  12.5
+FRING3: Ant(19): Phas= 138.2 rate=     13.26 delay=    172.54 SNR=  12.8
+FRING3: Ant(20): Phas=  18.9 rate=      9.82 delay=    174.56 SNR=  12.7
+FRING3: Ant(21): Phas=  34.6 rate=      2.06 delay=    224.24 SNR=   9.7
+FRING3: Ant(22): Phas=-128.4 rate=    -40.81 delay=    291.45 SNR=  12.2
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.93 rate=     5.141 delay=     8.310
+FRING3: Ant(16): Phas=  4.80 rate=     4.531 delay=     7.167
+FRING3: Ant(17): Phas=  4.95 rate=     4.596 delay=     7.922
+FRING3: Ant(18): Phas=  4.60 rate=     4.236 delay=     7.058
+FRING3: Ant(19): Phas=  4.48 rate=     4.207 delay=     6.452
+FRING3: Ant(20): Phas=  4.52 rate=     4.267 delay=     6.875
+FRING3: Ant(21): Phas=  5.88 rate=     5.248 delay=     8.406
+FRING3: Ant(22): Phas=  4.68 rate=     5.005 delay=     8.100
+FRING3: Time=   0/ 11 46 23, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   2.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   2.3
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   2.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   2.3
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   2.8
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   1.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   3.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.2
+FRING3: Ant= 20 ref= 19 IF=  1 R=      0.00 D=        0.0 SNR=   2.5
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 151.0 rate=    -15.95 delay=     50.79 SNR=   9.8
+FRING3: Ant(16): Phas=  46.3 rate=     52.86 delay=   -446.89 SNR=   5.9
+FRING3: Ant(17): Phas= 178.2 rate=     -0.25 delay=     81.37 SNR=  10.5
+FRING3: Ant(18): Phas= 160.9 rate=     12.36 delay=     34.41 SNR=  10.9
+FRING3: Ant(19): Phas=-189.3 rate=     28.40 delay=    148.92 SNR=  10.4
+FRING3: Ant(20): Phas=  47.3 rate=    -24.01 delay=    236.48 SNR=  10.2
+FRING3: Ant(21): Phas=-123.3 rate=    -36.23 delay=    -81.54 SNR=   9.2
+FRING3: Ant(22): Phas=-150.4 rate=      1.26 delay=    311.56 SNR=  11.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.84 rate=     4.748 delay=     8.677
+FRING3: Ant(16): Phas=  9.66 rate=     4.911 delay=    13.931
+FRING3: Ant(17): Phas=  5.48 rate=     4.359 delay=     8.155
+FRING3: Ant(18): Phas=  5.27 rate=     4.319 delay=     7.790
+FRING3: Ant(19): Phas=  5.50 rate=     4.292 delay=     8.438
+FRING3: Ant(20): Phas=  5.64 rate=     4.672 delay=     8.731
+FRING3: Ant(21): Phas=  6.19 rate=     4.801 delay=     9.345
+FRING3: Ant(22): Phas=  5.17 rate=     4.337 delay=     8.090
+FRING3: Time=   0/ 11 46 28, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   1.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   5.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   1.3
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   2.4
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   6.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   4.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -250.0 SNR=   2.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   4.3
+FRING3: Ant= 15 ref= 18 IF=  1 R=      0.00 D=      120.0 SNR=   2.5
+FRING3: Ant= 17 ref= 18 IF=  1 R=      0.00 D=     -230.0 SNR=   2.0
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 165.8 rate=    -13.91 delay=    153.87 SNR=   9.0
+FRING3: Ant(16): Phas= -76.2 rate=     23.82 delay=    154.68 SNR=   9.3
+FRING3: Ant(17): Phas= -72.9 rate=     -8.41 delay=   -316.20 SNR=   9.3
+FRING3: Ant(18): Phas= 134.9 rate=      0.94 delay=     73.54 SNR=   9.5
+FRING3: Ant(19): Phas= 155.5 rate=    -40.24 delay=    201.76 SNR=   9.8
+FRING3: Ant(20): Phas=   9.9 rate=     81.64 delay=    110.51 SNR=   8.0
+FRING3: Ant(21): Phas= -84.0 rate=     90.51 delay=    -17.63 SNR=   9.1
+FRING3: Ant(22): Phas=-161.1 rate=     42.13 delay=    289.80 SNR=   8.6
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.35 rate=     9.187 delay=     9.202
+FRING3: Ant(16): Phas=  6.13 rate=     8.613 delay=     8.399
+FRING3: Ant(17): Phas=  6.14 rate=    10.008 delay=     8.874
+FRING3: Ant(18): Phas=  6.01 rate=     8.362 delay=     8.305
+FRING3: Ant(19): Phas=  5.83 rate=     8.955 delay=     8.304
+FRING3: Ant(20): Phas=  7.14 rate=     9.737 delay=     9.090
+FRING3: Ant(21): Phas=  6.30 rate=     9.052 delay=     8.938
+FRING3: Ant(22): Phas=  6.68 rate=     9.640 delay=     9.546
+FRING3: Time=   0/ 11 46 28, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   6.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   2.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   2.0
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   5.8
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   5.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   2.6
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -80.0 SNR=   3.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      270.0 SNR=   6.3
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 110.4 rate=    -60.18 delay=    -30.92 SNR=   8.3
+FRING3: Ant(16): Phas= -94.0 rate=     20.24 delay=    116.80 SNR=   9.3
+FRING3: Ant(17): Phas= 147.5 rate=     12.08 delay=     29.01 SNR=  10.0
+FRING3: Ant(18): Phas= 178.6 rate=     35.21 delay=    -15.20 SNR=  11.2
+FRING3: Ant(19): Phas= 198.5 rate=    -37.94 delay=    138.59 SNR=  10.1
+FRING3: Ant(20): Phas=  26.5 rate=    -38.73 delay=    145.61 SNR=   9.1
+FRING3: Ant(21): Phas= -82.9 rate=     78.31 delay=    -50.24 SNR=   7.3
+FRING3: Ant(22): Phas=-175.9 rate=    119.30 delay=    294.93 SNR=   7.5
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.93 rate=     9.034 delay=    13.946
+FRING3: Ant(16): Phas=  6.17 rate=     8.434 delay=     9.021
+FRING3: Ant(17): Phas=  5.74 rate=     7.834 delay=     8.599
+FRING3: Ant(18): Phas=  5.14 rate=     7.643 delay=     7.608
+FRING3: Ant(19): Phas=  5.69 rate=     7.784 delay=     7.889
+FRING3: Ant(20): Phas=  6.26 rate=     9.350 delay=     8.850
+FRING3: Ant(21): Phas=  7.82 rate=     9.144 delay=    10.439
+FRING3: Ant(22): Phas=  7.66 rate=    11.558 delay=     9.267
+FRING3: Time=   0/ 11 46 32, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   3.0
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   2.3
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.2
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=     -130.0 SNR=   2.0
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   3.0
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -160.0 SNR=   1.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   3.8
+FRING3: Ant= 21 ref= 15 IF=  1 R=      0.00 D=     -110.0 SNR=   2.5
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-185.3 rate=     37.05 delay=    116.56 SNR=   9.6
+FRING3: Ant(16): Phas= -32.6 rate=     21.36 delay=    108.89 SNR=   9.4
+FRING3: Ant(17): Phas=-195.2 rate=    -20.95 delay=     48.75 SNR=   9.6
+FRING3: Ant(18): Phas= 165.6 rate=     14.29 delay=     24.28 SNR=   9.6
+FRING3: Ant(19): Phas=-165.5 rate=      2.79 delay=    128.20 SNR=   9.8
+FRING3: Ant(20): Phas=  53.1 rate=    -75.23 delay=    120.89 SNR=   9.0
+FRING3: Ant(21): Phas= -98.2 rate=   -109.79 delay=   -116.64 SNR=   9.2
+FRING3: Ant(22): Phas=-105.3 rate=      6.28 delay=    133.99 SNR=   7.5
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.98 rate=     9.387 delay=     8.183
+FRING3: Ant(16): Phas=  6.07 rate=     9.142 delay=     8.313
+FRING3: Ant(17): Phas=  5.98 rate=     9.642 delay=     8.627
+FRING3: Ant(18): Phas=  5.95 rate=     8.661 delay=     8.008
+FRING3: Ant(19): Phas=  5.87 rate=     9.026 delay=     7.988
+FRING3: Ant(20): Phas=  6.33 rate=     9.518 delay=     8.322
+FRING3: Ant(21): Phas=  6.23 rate=     9.639 delay=     8.645
+FRING3: Ant(22): Phas=  7.60 rate=     9.717 delay=     9.495
+FRING3: Time=   0/ 11 46 32, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   3.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   1.7
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   4.2
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   4.2
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   3.0
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   3.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   2.1
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   3.2
+FRING3: Ant= 16 ref= 19 IF=  1 R=      0.00 D=      300.0 SNR=   1.6
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-158.8 rate=     -5.21 delay=     97.86 SNR=   8.4
+FRING3: Ant(17): Phas=-173.0 rate=    -47.05 delay=     78.62 SNR=   8.1
+FRING3: Ant(18): Phas=-158.2 rate=    -58.71 delay=     28.86 SNR=   8.9
+FRING3: Ant(19): Phas=-127.6 rate=     26.80 delay=    214.23 SNR=   9.0
+FRING3: Ant(20): Phas=  48.8 rate=    118.68 delay=    169.40 SNR=   9.1
+FRING3: Ant(21): Phas= -90.9 rate=    -19.71 delay=    -74.05 SNR=   7.3
+FRING3: Ant(22): Phas=-167.7 rate=     91.84 delay=    318.72 SNR=   8.6
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.82 rate=    10.149 delay=     9.957
+FRING3: Ant(17): Phas=  7.03 rate=    10.005 delay=     9.671
+FRING3: Ant(18): Phas=  6.41 rate=     9.583 delay=     9.147
+FRING3: Ant(19): Phas=  6.34 rate=     9.782 delay=     9.682
+FRING3: Ant(20): Phas=  6.30 rate=     9.993 delay=     9.191
+FRING3: Ant(21): Phas=  7.82 rate=    11.498 delay=    10.929
+FRING3: Ant(22): Phas=  6.66 rate=    10.189 delay=     9.665
+FRING3: Time=   0/ 11 46 37, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   2.9
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   3.9
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   4.2
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   4.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   2.6
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   2.1
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   2.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.1
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-254.2 rate=    -28.40 delay=     69.03 SNR=   7.5
+FRING3: Ant(16): Phas= -26.4 rate=     -0.28 delay=    122.11 SNR=   9.3
+FRING3: Ant(17): Phas= 156.0 rate=     31.51 delay=     29.47 SNR=   9.8
+FRING3: Ant(18): Phas= 181.3 rate=     24.79 delay=     31.35 SNR=   9.5
+FRING3: Ant(19): Phas= 190.7 rate=     19.02 delay=    123.65 SNR=   9.5
+FRING3: Ant(20): Phas=  15.5 rate=    -44.17 delay=    173.55 SNR=   8.9
+FRING3: Ant(21): Phas= 198.7 rate=    -14.47 delay=   -653.39 SNR=   7.4
+FRING3: Ant(22): Phas= 219.6 rate=    -24.78 delay=    190.50 SNR=   9.2
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  7.63 rate=     6.605 delay=    10.668
+FRING3: Ant(16): Phas=  6.19 rate=     4.691 delay=     8.842
+FRING3: Ant(17): Phas=  5.87 rate=     4.508 delay=     8.327
+FRING3: Ant(18): Phas=  6.04 rate=     4.531 delay=     8.585
+FRING3: Ant(19): Phas=  6.03 rate=     4.497 delay=     8.489
+FRING3: Ant(20): Phas=  6.45 rate=     4.820 delay=     9.487
+FRING3: Ant(21): Phas=  7.77 rate=     6.214 delay=    10.604
+FRING3: Ant(22): Phas=  6.25 rate=     4.540 delay=     8.383
+FRING3: Time=   0/ 11 46 37, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   3.2
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   3.8
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   3.8
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=     -110.0 SNR=   2.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   2.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   4.0
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   2.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   8.7
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 157.6 rate=      4.73 delay=     85.84 SNR=  12.9
+FRING3: Ant(16): Phas= -51.9 rate=     28.99 delay=    107.88 SNR=  13.7
+FRING3: Ant(17): Phas= 167.3 rate=     36.01 delay=     35.27 SNR=  13.2
+FRING3: Ant(18): Phas=-155.4 rate=     12.29 delay=     15.69 SNR=  12.8
+FRING3: Ant(19): Phas=-150.2 rate=     -6.28 delay=    123.58 SNR=  14.0
+FRING3: Ant(20): Phas=  23.8 rate=    -30.23 delay=    164.23 SNR=  11.2
+FRING3: Ant(21): Phas= -65.5 rate=     12.80 delay=   -103.26 SNR=  11.2
+FRING3: Ant(22): Phas= 178.9 rate=    -31.41 delay=    213.07 SNR=  11.7
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.43 rate=     4.718 delay=     6.826
+FRING3: Ant(16): Phas=  4.19 rate=     3.976 delay=     6.115
+FRING3: Ant(17): Phas=  4.34 rate=     3.964 delay=     6.410
+FRING3: Ant(18): Phas=  4.48 rate=     4.125 delay=     6.685
+FRING3: Ant(19): Phas=  4.09 rate=     3.882 delay=     6.535
+FRING3: Ant(20): Phas=  5.12 rate=     4.232 delay=     6.989
+FRING3: Ant(21): Phas=  5.09 rate=     4.975 delay=     7.111
+FRING3: Ant(22): Phas=  4.91 rate=     3.962 delay=     6.789
+FRING3: Time=   0/ 11 46 42, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      -40.0 SNR=   2.1
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   3.9
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   2.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   5.5
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   4.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   3.3
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   3.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      290.0 SNR=   4.9
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 197.4 rate=    -46.91 delay=      7.96 SNR=   8.6
+FRING3: Ant(16): Phas= -51.4 rate=     14.95 delay=     72.53 SNR=   9.3
+FRING3: Ant(17): Phas= 179.2 rate=     -4.82 delay=     59.67 SNR=   7.9
+FRING3: Ant(18): Phas=-158.5 rate=      2.88 delay=    104.51 SNR=   8.7
+FRING3: Ant(19): Phas=-156.6 rate=     26.63 delay=    -27.71 SNR=   9.0
+FRING3: Ant(20): Phas=  19.5 rate=    -17.65 delay=    130.97 SNR=   7.9
+FRING3: Ant(21): Phas=  58.3 rate=    137.70 delay=    216.38 SNR=   8.7
+FRING3: Ant(22): Phas=-147.9 rate=     22.98 delay=    126.37 SNR=   8.4
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.66 rate=     9.380 delay=    11.034
+FRING3: Ant(16): Phas=  6.16 rate=     9.247 delay=    10.407
+FRING3: Ant(17): Phas=  7.27 rate=    10.273 delay=    13.013
+FRING3: Ant(18): Phas=  6.60 rate=     9.289 delay=    12.156
+FRING3: Ant(19): Phas=  6.40 rate=     9.212 delay=    11.066
+FRING3: Ant(20): Phas=  7.27 rate=    10.478 delay=    11.926
+FRING3: Ant(21): Phas=  6.62 rate=    10.377 delay=    11.436
+FRING3: Ant(22): Phas=  6.83 rate=    10.114 delay=    11.067
+FRING3: Time=   0/ 11 46 42, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   2.6
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   2.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   3.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   5.5
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      190.0 SNR=   2.9
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   3.0
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -50.0 SNR=   2.7
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   6.4
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 142.8 rate=     46.95 delay=     87.03 SNR=  11.0
+FRING3: Ant(16): Phas= -69.6 rate=     -1.94 delay=    198.74 SNR=  11.7
+FRING3: Ant(17): Phas=-161.2 rate=     12.23 delay=     90.82 SNR=  11.8
+FRING3: Ant(18): Phas= 183.3 rate=     39.78 delay=     88.65 SNR=  12.0
+FRING3: Ant(19): Phas=-116.1 rate=     34.97 delay=    164.29 SNR=  11.0
+FRING3: Ant(20): Phas= -10.9 rate=    -21.16 delay=    166.78 SNR=  11.5
+FRING3: Ant(21): Phas= -62.0 rate=    -65.45 delay=    -68.28 SNR=  11.4
+FRING3: Ant(22): Phas=-155.1 rate=    -78.93 delay=    290.82 SNR=  11.0
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.21 rate=     8.105 delay=     7.865
+FRING3: Ant(16): Phas=  4.88 rate=     8.219 delay=     7.253
+FRING3: Ant(17): Phas=  4.87 rate=     7.682 delay=     7.173
+FRING3: Ant(18): Phas=  4.76 rate=     7.633 delay=     7.197
+FRING3: Ant(19): Phas=  5.23 rate=     8.396 delay=     7.562
+FRING3: Ant(20): Phas=  4.97 rate=     8.173 delay=     7.705
+FRING3: Ant(21): Phas=  5.04 rate=     8.236 delay=     7.541
+FRING3: Ant(22): Phas=  5.22 rate=     7.952 delay=     8.312
+FRING3: Time=   0/ 11 46 47, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   4.2
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   2.4
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   6.0
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   6.9
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   2.9
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   4.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   1.9
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   7.3
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=      240.0 SNR=   1.2
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 185.5 rate=      4.17 delay=    135.27 SNR=  12.3
+FRING3: Ant(16): Phas=  -0.9 rate=     78.22 delay=     89.11 SNR=  13.0
+FRING3: Ant(17): Phas= 157.6 rate=      9.14 delay=     21.49 SNR=  14.1
+FRING3: Ant(18): Phas= 167.8 rate=     29.50 delay=     57.14 SNR=  14.2
+FRING3: Ant(19): Phas=-141.6 rate=     -8.60 delay=    148.06 SNR=  14.1
+FRING3: Ant(20): Phas= -16.5 rate=    -17.64 delay=    177.04 SNR=  13.3
+FRING3: Ant(22): Phas=-174.9 rate=     -4.16 delay=    238.61 SNR=  12.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.66 rate=     4.167 delay=     6.813
+FRING3: Ant(16): Phas=  4.42 rate=     4.578 delay=     6.244
+FRING3: Ant(17): Phas=  4.07 rate=     3.944 delay=     5.991
+FRING3: Ant(18): Phas=  4.03 rate=     4.085 delay=     6.291
+FRING3: Ant(19): Phas=  4.07 rate=     3.866 delay=     5.905
+FRING3: Ant(20): Phas=  4.31 rate=     4.435 delay=     6.399
+FRING3: Ant(22): Phas=  4.75 rate=     4.896 delay=     7.076
+FRING3: Time=   0/ 11 46 47, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   3.8
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   4.8
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   3.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   5.3
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   2.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   2.1
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      280.0 SNR=   1.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=     -210.0 SNR=   2.0
+FRING3: Ant= 21 ref= 17 IF=  1 R=      0.00 D=      -50.0 SNR=   1.8
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 158.6 rate=      5.16 delay=     56.89 SNR=  10.9
+FRING3: Ant(16): Phas=  -4.2 rate=     39.75 delay=    146.16 SNR=  10.7
+FRING3: Ant(17): Phas=-175.4 rate=     42.95 delay=     60.91 SNR=  11.3
+FRING3: Ant(18): Phas=-178.8 rate=     27.58 delay=     54.18 SNR=  10.9
+FRING3: Ant(19): Phas= -97.6 rate=     -4.52 delay=    155.97 SNR=  12.0
+FRING3: Ant(20): Phas=  96.1 rate=    -84.37 delay=    341.04 SNR=  10.9
+FRING3: Ant(22): Phas= 359.5 rate=   -216.29 delay=   -419.41 SNR=  10.2
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.24 rate=     5.541 delay=     9.227
+FRING3: Ant(16): Phas=  5.37 rate=     5.279 delay=     9.139
+FRING3: Ant(17): Phas=  5.05 rate=     4.808 delay=     8.152
+FRING3: Ant(18): Phas=  5.26 rate=     4.962 delay=     8.142
+FRING3: Ant(19): Phas=  4.79 rate=     4.480 delay=     7.395
+FRING3: Ant(20): Phas=  5.28 rate=     6.000 delay=     8.530
+FRING3: Ant(22): Phas=  5.62 rate=     5.600 delay=     9.428
+FRING3: Time=   0/ 11 46 52, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   2.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   1.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   2.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   2.3
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   2.3
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   4.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      270.0 SNR=   6.2
+FRING3: Ant= 17 ref= 19 IF=  1 R=      0.00 D=     -210.0 SNR=   1.8
+FRING3: FIT DID NOT CONVERGE FOR IF    1
+FRING3:  This probably means that the starting value for the
+FRING3: delay or rate for one or more antennae is bad.  You
+FRING3:  may want to set search windows and try again.
+FRING3: Time=   0/ 11 46 52, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   3.9
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   3.3
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   5.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   2.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   2.6
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   3.0
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   1.7
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   7.3
+FRING3: Ant= 21 ref= 15 IF=  1 R=      0.00 D=     -210.0 SNR=   1.5
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 138.4 rate=    -40.92 delay=     79.67 SNR=  10.5
+FRING3: Ant(16): Phas=  -3.3 rate=    -26.20 delay=    158.06 SNR=  11.1
+FRING3: Ant(17): Phas=-141.9 rate=    -17.63 delay=     72.37 SNR=  10.8
+FRING3: Ant(18): Phas=-173.0 rate=     66.46 delay=    -53.04 SNR=   9.1
+FRING3: Ant(19): Phas= -96.7 rate=      7.36 delay=    179.69 SNR=  11.6
+FRING3: Ant(20): Phas=  21.4 rate=     58.70 delay=    102.89 SNR=  10.9
+FRING3: Ant(22): Phas=-145.6 rate=     23.66 delay=    237.19 SNR=  11.2
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.48 rate=     8.706 delay=     8.121
+FRING3: Ant(16): Phas=  5.18 rate=     8.832 delay=     7.713
+FRING3: Ant(17): Phas=  5.31 rate=     8.919 delay=     9.268
+FRING3: Ant(18): Phas=  6.33 rate=     9.059 delay=     9.623
+FRING3: Ant(19): Phas=  4.94 rate=     8.077 delay=     7.359
+FRING3: Ant(20): Phas=  5.26 rate=     9.700 delay=     8.336
+FRING3: Ant(22): Phas=  5.13 rate=     8.831 delay=     7.480
+FRING3: Time=   0/ 11 46 57, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   2.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   3.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   6.8
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   6.7
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   5.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.1
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   1.7
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   2.5
+FRING3: Ant= 21 ref= 15 IF=  1 R=      0.00 D=     -280.0 SNR=   1.8
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 151.8 rate=    -28.13 delay=     29.61 SNR=  12.4
+FRING3: Ant(16): Phas=   2.1 rate=    -19.21 delay=    125.26 SNR=  11.9
+FRING3: Ant(17): Phas= 162.5 rate=      6.13 delay=     81.91 SNR=  12.6
+FRING3: Ant(18): Phas= 166.2 rate=     -5.31 delay=     59.01 SNR=  12.3
+FRING3: Ant(19): Phas=-124.1 rate=     21.57 delay=    150.72 SNR=  11.9
+FRING3: Ant(20): Phas=   9.4 rate=    -44.88 delay=    214.64 SNR=  11.0
+FRING3: Ant(22): Phas=-147.2 rate=     13.92 delay=    276.14 SNR=  12.6
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.64 rate=     4.288 delay=     7.610
+FRING3: Ant(16): Phas=  4.81 rate=     4.103 delay=     7.670
+FRING3: Ant(17): Phas=  4.54 rate=     4.117 delay=     6.983
+FRING3: Ant(18): Phas=  4.67 rate=     4.004 delay=     7.826
+FRING3: Ant(19): Phas=  4.83 rate=     4.485 delay=     7.424
+FRING3: Ant(20): Phas=  5.22 rate=     4.403 delay=     8.710
+FRING3: Ant(22): Phas=  4.57 rate=     4.153 delay=     7.693
+FRING3: Time=   0/ 11 46 57, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   5.8
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   4.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   2.0
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   2.2
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   2.5
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   2.7
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   1.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.8
+FRING3: Ant= 21 ref= 15 IF=  1 R=      0.00 D=     -260.0 SNR=   2.6
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 181.2 rate=     -1.09 delay=    110.78 SNR=  12.2
+FRING3: Ant(16): Phas= -14.5 rate=    -19.29 delay=    106.20 SNR=  12.4
+FRING3: Ant(17): Phas=-182.8 rate=      3.57 delay=     69.60 SNR=  12.2
+FRING3: Ant(18): Phas= 149.8 rate=    -13.25 delay=     29.82 SNR=  12.9
+FRING3: Ant(19): Phas=-100.6 rate=      4.31 delay=    149.63 SNR=  13.6
+FRING3: Ant(20): Phas=  50.2 rate=    -32.66 delay=    127.35 SNR=  12.7
+FRING3: Ant(21): Phas= -47.0 rate=    -23.20 delay=    -51.09 SNR=  11.5
+FRING3: Ant(22): Phas=-180.2 rate=    -19.54 delay=    220.43 SNR=  13.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.71 rate=     4.461 delay=     6.822
+FRING3: Ant(16): Phas=  4.62 rate=     4.309 delay=     6.524
+FRING3: Ant(17): Phas=  4.68 rate=     4.509 delay=     7.586
+FRING3: Ant(18): Phas=  4.45 rate=     4.464 delay=     6.492
+FRING3: Ant(19): Phas=  4.21 rate=     4.129 delay=     5.954
+FRING3: Ant(20): Phas=  4.51 rate=     4.425 delay=     6.296
+FRING3: Ant(21): Phas=  4.96 rate=     5.118 delay=     7.019
+FRING3: Ant(22): Phas=  4.38 rate=     4.356 delay=     6.364
+FRING3: Time=   0/ 11 47 02, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   3.6
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   1.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   4.8
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   2.3
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   6.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -80.0 SNR=   2.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   5.5
+FRING3: Ant= 16 ref= 19 IF=  1 R=      0.00 D=     -140.0 SNR=   2.4
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-200.2 rate=     10.37 delay=    168.91 SNR=   9.9
+FRING3: Ant(16): Phas=  35.0 rate=     51.03 delay=     82.33 SNR=   7.6
+FRING3: Ant(17): Phas=-195.0 rate=    -23.74 delay=     91.62 SNR=   9.7
+FRING3: Ant(18): Phas= 156.3 rate=    -98.03 delay=      6.10 SNR=   9.5
+FRING3: Ant(19): Phas= -92.8 rate=    -25.65 delay=    148.65 SNR=  10.0
+FRING3: Ant(20): Phas=  33.5 rate=     -0.72 delay=    100.94 SNR=  10.0
+FRING3: Ant(21): Phas= -31.6 rate=    -29.23 delay=    -64.24 SNR=  10.1
+FRING3: Ant(22): Phas=-124.8 rate=      1.44 delay=    176.74 SNR=  10.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.76 rate=     8.575 delay=     7.850
+FRING3: Ant(16): Phas=  7.58 rate=    10.381 delay=     9.441
+FRING3: Ant(17): Phas=  5.90 rate=     8.764 delay=     8.406
+FRING3: Ant(18): Phas=  6.05 rate=     8.692 delay=     8.113
+FRING3: Ant(19): Phas=  5.72 rate=     8.262 delay=     7.952
+FRING3: Ant(20): Phas=  5.73 rate=     8.590 delay=     7.788
+FRING3: Ant(21): Phas=  5.69 rate=     9.139 delay=     7.602
+FRING3: Ant(22): Phas=  5.65 rate=     8.950 delay=     7.512
+FRING3: Time=   0/ 11 47 02, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      290.0 SNR=   2.9
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   2.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   3.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   2.3
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   8.5
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   4.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   1.4
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   2.9
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=     -280.0 SNR=   2.4
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=-234.1 rate=     98.01 delay=    264.62 SNR=   8.4
+FRING3: Ant(16): Phas=  23.1 rate=     37.58 delay=     34.56 SNR=   9.0
+FRING3: Ant(17): Phas=-178.4 rate=     32.12 delay=     31.39 SNR=   8.9
+FRING3: Ant(18): Phas= 144.6 rate=     12.83 delay=     96.76 SNR=   8.0
+FRING3: Ant(19): Phas= -38.7 rate=     -1.44 delay=    181.29 SNR=   9.7
+FRING3: Ant(20): Phas=  16.7 rate=     89.87 delay=     84.94 SNR=   9.1
+FRING3: Ant(21): Phas= -35.3 rate=    -58.68 delay=    -73.34 SNR=   8.0
+FRING3: Ant(22): Phas=-115.7 rate=     96.99 delay=    170.92 SNR=   8.8
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.84 rate=     9.512 delay=    10.159
+FRING3: Ant(16): Phas=  6.36 rate=     9.578 delay=     9.254
+FRING3: Ant(17): Phas=  6.44 rate=     9.671 delay=    11.166
+FRING3: Ant(18): Phas=  7.19 rate=     9.331 delay=    10.193
+FRING3: Ant(19): Phas=  5.88 rate=     8.615 delay=     8.672
+FRING3: Ant(20): Phas=  6.27 rate=     9.141 delay=     9.082
+FRING3: Ant(21): Phas=  7.19 rate=    10.218 delay=    10.580
+FRING3: Ant(22): Phas=  6.51 rate=     9.853 delay=    10.448
+FRING3: Time=   0/ 11 47 07, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.9
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   3.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       10.0 SNR=   4.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   3.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   2.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   2.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   3.9
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 138.3 rate=     70.50 delay=    100.91 SNR=  11.1
+FRING3: Ant(16): Phas=  36.2 rate=    -28.62 delay=     81.72 SNR=  11.7
+FRING3: Ant(17): Phas=-177.1 rate=      3.97 delay=     25.79 SNR=  11.8
+FRING3: Ant(18): Phas= 178.4 rate=     -5.50 delay=     33.46 SNR=  11.3
+FRING3: Ant(19): Phas= -83.6 rate=     21.79 delay=    160.83 SNR=  11.3
+FRING3: Ant(20): Phas=  25.0 rate=     -0.63 delay=     99.49 SNR=  10.9
+FRING3: Ant(21): Phas=  15.0 rate=    -50.02 delay=      8.84 SNR=   8.1
+FRING3: Ant(22): Phas=-112.3 rate=     -4.28 delay=    335.00 SNR=  10.7
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.16 rate=     4.738 delay=     6.992
+FRING3: Ant(16): Phas=  4.92 rate=     4.597 delay=     6.867
+FRING3: Ant(17): Phas=  4.85 rate=     4.458 delay=     7.328
+FRING3: Ant(18): Phas=  5.06 rate=     4.301 delay=     7.161
+FRING3: Ant(19): Phas=  5.08 rate=     4.458 delay=     6.689
+FRING3: Ant(20): Phas=  5.24 rate=     4.714 delay=     7.421
+FRING3: Ant(21): Phas=  7.10 rate=     6.685 delay=    10.283
+FRING3: Ant(22): Phas=  5.34 rate=     4.779 delay=     7.693
+FRING3: Time=   0/ 11 47 07, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      -80.0 SNR=   3.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   4.9
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   4.5
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -50.0 SNR=   3.4
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   2.7
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   5.2
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -110.0 SNR=   2.1
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   6.3
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 123.9 rate=    -29.25 delay=    -42.82 SNR=  11.3
+FRING3: Ant(16): Phas=  -8.7 rate=      5.66 delay=    128.26 SNR=  11.3
+FRING3: Ant(17): Phas=-169.4 rate=    -23.48 delay=     24.05 SNR=  11.6
+FRING3: Ant(18): Phas=-166.5 rate=    -37.69 delay=     14.87 SNR=  11.6
+FRING3: Ant(19): Phas= -45.2 rate=    -39.92 delay=    157.82 SNR=  12.1
+FRING3: Ant(20): Phas=   7.7 rate=     20.26 delay=    112.04 SNR=  11.6
+FRING3: Ant(21): Phas= -18.4 rate=    -13.31 delay=   -121.39 SNR=  10.7
+FRING3: Ant(22): Phas= -76.9 rate=   -199.04 delay=    214.13 SNR=   8.3
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.08 rate=     4.565 delay=     7.327
+FRING3: Ant(16): Phas=  5.07 rate=     4.662 delay=     7.766
+FRING3: Ant(17): Phas=  4.95 rate=     4.515 delay=     7.566
+FRING3: Ant(18): Phas=  4.92 rate=     4.418 delay=     8.000
+FRING3: Ant(19): Phas=  4.75 rate=     4.201 delay=     6.823
+FRING3: Ant(20): Phas=  4.94 rate=     4.576 delay=     7.182
+FRING3: Ant(21): Phas=  5.37 rate=     4.705 delay=     7.481
+FRING3: Ant(22): Phas=  6.93 rate=     5.500 delay=     9.587
+FRING3: Time=   0/ 11 47 12, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   2.6
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   3.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   2.3
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   4.2
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      190.0 SNR=   8.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=     -270.0 SNR=   1.9
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -50.0 SNR=   2.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   5.9
+FRING3: Ant= 20 ref= 19 IF=  1 R=      0.00 D=     -300.0 SNR=   1.7
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 122.3 rate=     81.39 delay=     96.70 SNR=   5.7
+FRING3: Ant(16): Phas=  77.7 rate=     45.23 delay=    135.29 SNR=   9.4
+FRING3: Ant(17): Phas=-194.6 rate=     86.65 delay=     51.57 SNR=   9.1
+FRING3: Ant(18): Phas=-188.8 rate=     65.49 delay=    -15.80 SNR=  10.3
+FRING3: Ant(19): Phas= -77.4 rate=     47.72 delay=    130.15 SNR=   9.6
+FRING3: Ant(21): Phas= -43.5 rate=    -31.54 delay=    -68.50 SNR=   7.8
+FRING3: Ant(22): Phas=-132.1 rate=     46.15 delay=    232.36 SNR=  10.4
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas= 10.08 rate=    16.629 delay=    12.744
+FRING3: Ant(16): Phas=  6.13 rate=     9.785 delay=     8.875
+FRING3: Ant(17): Phas=  6.27 rate=    10.182 delay=     8.451
+FRING3: Ant(18): Phas=  5.55 rate=    10.240 delay=     9.460
+FRING3: Ant(19): Phas=  5.95 rate=     8.611 delay=     9.607
+FRING3: Ant(21): Phas=  7.36 rate=    10.995 delay=    10.002
+FRING3: Ant(22): Phas=  5.49 rate=     8.839 delay=     8.425
+FRING3: Time=   0/ 11 47 12, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   1.9
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.0
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   4.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   2.7
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   3.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   2.7
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   2.1
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.1
+FRING3: Ant= 15 ref= 19 IF=  1 R=      0.00 D=     -200.0 SNR=   3.2
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 118.0 rate=    -95.06 delay=    -53.94 SNR=   9.1
+FRING3: Ant(16): Phas=  39.3 rate=     -9.53 delay=    165.14 SNR=   9.8
+FRING3: Ant(17): Phas= -62.1 rate=   -203.29 delay=    383.12 SNR=   9.1
+FRING3: Ant(18): Phas=-197.4 rate=     32.44 delay=     33.42 SNR=   9.3
+FRING3: Ant(19): Phas= -33.6 rate=      9.20 delay=    136.70 SNR=  10.1
+FRING3: Ant(20): Phas=  70.4 rate=     45.61 delay=    194.11 SNR=   9.2
+FRING3: Ant(21): Phas= 268.1 rate=   -122.87 delay=    -21.52 SNR=   8.2
+FRING3: Ant(22): Phas=-157.2 rate=     74.95 delay=    314.57 SNR=   9.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.33 rate=    10.310 delay=     9.242
+FRING3: Ant(16): Phas=  5.87 rate=     9.538 delay=     8.603
+FRING3: Ant(17): Phas=  6.31 rate=    10.443 delay=     8.611
+FRING3: Ant(18): Phas=  6.14 rate=     9.589 delay=     9.187
+FRING3: Ant(19): Phas=  5.65 rate=     8.756 delay=     7.827
+FRING3: Ant(20): Phas=  6.20 rate=     9.458 delay=     8.627
+FRING3: Ant(21): Phas=  6.99 rate=    10.972 delay=    10.405
+FRING3: Ant(22): Phas=  6.31 rate=    11.000 delay=     8.700
+FRING3: Time=   0/ 11 47 17, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   4.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   3.8
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   3.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=  10.3
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   3.0
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   2.9
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=  69.2 rate=    -60.59 delay=    -92.42 SNR=  10.0
+FRING3: Ant(16): Phas=  95.9 rate=    -38.21 delay=     77.88 SNR=  10.2
+FRING3: Ant(17): Phas=-162.5 rate=    -11.93 delay=     13.65 SNR=  10.1
+FRING3: Ant(18): Phas=-212.8 rate=    -51.37 delay=      2.45 SNR=  10.7
+FRING3: Ant(19): Phas= -62.5 rate=    -24.32 delay=    146.60 SNR=  11.5
+FRING3: Ant(20): Phas=  13.0 rate=    -35.32 delay=    150.15 SNR=  10.3
+FRING3: Ant(21): Phas= 181.9 rate=      9.15 delay=    314.10 SNR=   9.3
+FRING3: Ant(22): Phas=-129.0 rate=      7.55 delay=    201.91 SNR=  10.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.76 rate=     5.423 delay=     9.587
+FRING3: Ant(16): Phas=  5.63 rate=     4.963 delay=     7.699
+FRING3: Ant(17): Phas=  5.69 rate=     5.305 delay=     7.863
+FRING3: Ant(18): Phas=  5.38 rate=     4.737 delay=     7.500
+FRING3: Ant(19): Phas=  4.96 rate=     4.519 delay=     6.899
+FRING3: Ant(20): Phas=  5.56 rate=     4.659 delay=     7.600
+FRING3: Ant(21): Phas=  6.17 rate=     5.685 delay=     8.588
+FRING3: Ant(22): Phas=  5.69 rate=     4.921 delay=     7.771
+FRING3: Time=   0/ 11 47 17, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   4.6
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   3.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   7.6
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   6.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=  10.9
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   1.9
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -50.0 SNR=   3.4
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.9
+FRING3: Ant= 20 ref= 19 IF=  1 R=      0.00 D=       80.0 SNR=   1.4
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=  94.7 rate=     48.95 delay=     98.47 SNR=  12.3
+FRING3: Ant(16): Phas=  53.5 rate=     58.03 delay=    103.91 SNR=  10.4
+FRING3: Ant(17): Phas=-150.4 rate=     45.58 delay=     48.82 SNR=  12.9
+FRING3: Ant(18): Phas=-170.3 rate=     22.00 delay=     21.23 SNR=  12.8
+FRING3: Ant(19): Phas= -46.9 rate=     32.06 delay=    154.80 SNR=  13.3
+FRING3: Ant(21): Phas= -36.2 rate=     12.78 delay=   -102.92 SNR=  11.9
+FRING3: Ant(22): Phas=-188.3 rate=    -11.42 delay=    211.63 SNR=  11.6
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.67 rate=     4.664 delay=     6.492
+FRING3: Ant(16): Phas=  5.51 rate=     5.028 delay=     7.257
+FRING3: Ant(17): Phas=  4.46 rate=     4.213 delay=     6.188
+FRING3: Ant(18): Phas=  4.48 rate=     4.568 delay=     6.857
+FRING3: Ant(19): Phas=  4.32 rate=     4.016 delay=     5.877
+FRING3: Ant(21): Phas=  4.83 rate=     5.166 delay=     7.161
+FRING3: Ant(22): Phas=  4.95 rate=     4.543 delay=     7.788
+FRING3: Time=   0/ 11 47 22, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   3.0
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      -40.0 SNR=   2.3
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   5.6
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -60.0 SNR=   2.4
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   6.9
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   3.0
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   1.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   6.7
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=      110.0 SNR=   2.8
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 144.4 rate=   -114.59 delay=    245.23 SNR=   5.4
+FRING3: Ant(16): Phas=  76.7 rate=    -39.97 delay=    143.24 SNR=   6.3
+FRING3: Ant(17): Phas=-155.9 rate=      0.86 delay=     61.61 SNR=   6.4
+FRING3: Ant(18): Phas= 157.2 rate=     57.99 delay=    -22.69 SNR=   7.6
+FRING3: Ant(19): Phas= -47.1 rate=      2.26 delay=    105.56 SNR=   7.0
+FRING3: Ant(20): Phas= -19.2 rate=     -9.78 delay=    136.96 SNR=   7.3
+FRING3: Ant(21): Phas=  56.2 rate=   -288.34 delay=    580.25 SNR=   6.3
+FRING3: Ant(22): Phas=-100.2 rate=     49.72 delay=    128.24 SNR=   4.3
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas= 10.55 rate=    13.664 delay=    13.738
+FRING3: Ant(16): Phas=  9.11 rate=    10.544 delay=    11.961
+FRING3: Ant(17): Phas=  8.99 rate=     9.865 delay=    11.339
+FRING3: Ant(18): Phas=  7.59 rate=    11.287 delay=    11.411
+FRING3: Ant(19): Phas=  8.13 rate=     9.909 delay=    11.032
+FRING3: Ant(20): Phas=  7.90 rate=    12.186 delay=    10.880
+FRING3: Ant(21): Phas=  9.07 rate=    12.129 delay=    12.682
+FRING3: Ant(22): Phas= 13.33 rate=    12.160 delay=    14.237
+FRING3: Time=   0/ 11 47 22, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   2.2
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   1.4
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   2.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   3.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   2.0
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   2.5
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -80.0 SNR=   3.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   8.9
+FRING3: Ant= 16 ref= 19 IF=  1 R=      0.00 D=     -160.0 SNR=   3.2
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 143.9 rate=     82.84 delay=    159.83 SNR=   7.8
+FRING3: Ant(16): Phas=  90.7 rate=     -6.93 delay=    104.95 SNR=   7.9
+FRING3: Ant(17): Phas=-181.5 rate=    -27.55 delay=    104.50 SNR=   7.6
+FRING3: Ant(18): Phas=-209.1 rate=    -24.59 delay=      9.08 SNR=   8.3
+FRING3: Ant(19): Phas= -34.9 rate=     19.08 delay=    178.32 SNR=   8.3
+FRING3: Ant(20): Phas=  52.1 rate=    -48.27 delay=    219.31 SNR=   7.9
+FRING3: Ant(21): Phas= -14.6 rate=     27.92 delay=    -82.19 SNR=   8.1
+FRING3: Ant(22): Phas=-157.1 rate=     36.08 delay=    137.07 SNR=   8.4
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  7.31 rate=    13.225 delay=    10.106
+FRING3: Ant(16): Phas=  7.23 rate=    11.685 delay=     9.389
+FRING3: Ant(17): Phas=  7.53 rate=    10.336 delay=    10.208
+FRING3: Ant(18): Phas=  6.91 rate=     9.480 delay=    10.021
+FRING3: Ant(19): Phas=  6.94 rate=     8.743 delay=     9.140
+FRING3: Ant(20): Phas=  7.22 rate=    10.831 delay=    10.900
+FRING3: Ant(21): Phas=  7.07 rate=    11.031 delay=     9.905
+FRING3: Ant(22): Phas=  6.82 rate=     9.968 delay=     8.923
+FRING3: Time=   0/ 11 47 27, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   3.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   3.7
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   4.9
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   6.9
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=  10.0
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   3.3
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   1.1
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   6.8
+FRING3: Ant= 21 ref= 22 IF=  1 R=      0.00 D=      120.0 SNR=   1.2
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 178.2 rate=      8.58 delay=    141.76 SNR=  11.9
+FRING3: Ant(16): Phas= 112.4 rate=      9.53 delay=    162.93 SNR=  11.6
+FRING3: Ant(17): Phas=-150.9 rate=     13.22 delay=     25.02 SNR=  11.4
+FRING3: Ant(18): Phas= 158.9 rate=    -30.54 delay=    -19.23 SNR=  10.6
+FRING3: Ant(19): Phas= -13.8 rate=     16.85 delay=    167.07 SNR=  13.2
+FRING3: Ant(20): Phas=  57.0 rate=    -52.52 delay=    160.78 SNR=  10.3
+FRING3: Ant(22): Phas=-116.7 rate=     -3.20 delay=    144.51 SNR=  11.9
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.83 rate=     4.456 delay=     7.178
+FRING3: Ant(16): Phas=  4.94 rate=     4.195 delay=     7.021
+FRING3: Ant(17): Phas=  5.00 rate=     4.295 delay=     7.394
+FRING3: Ant(18): Phas=  5.42 rate=     4.493 delay=     7.890
+FRING3: Ant(19): Phas=  4.33 rate=     4.124 delay=     6.630
+FRING3: Ant(20): Phas=  5.57 rate=     6.068 delay=     9.103
+FRING3: Ant(22): Phas=  4.79 rate=     4.256 delay=     7.133
+FRING3: Time=   0/ 11 47 27, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   2.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   4.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   4.3
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   5.9
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   7.5
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.7
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   2.1
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   3.0
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 159.7 rate=    -24.03 delay=    106.60 SNR=  10.4
+FRING3: Ant(16): Phas= 125.8 rate=     25.26 delay=    133.89 SNR=  11.4
+FRING3: Ant(17): Phas= -94.0 rate=    -90.20 delay=    150.93 SNR=  11.5
+FRING3: Ant(18): Phas=-171.8 rate=     18.96 delay=    -11.89 SNR=  12.4
+FRING3: Ant(19): Phas= -13.8 rate=     23.90 delay=    100.72 SNR=  11.1
+FRING3: Ant(20): Phas=  56.7 rate=     20.03 delay=     70.52 SNR=  10.7
+FRING3: Ant(21): Phas=  34.6 rate=      1.97 delay=     14.84 SNR=   8.5
+FRING3: Ant(22): Phas=-137.8 rate=    -62.76 delay=    296.21 SNR=  10.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.49 rate=     4.707 delay=     7.560
+FRING3: Ant(16): Phas=  5.03 rate=     5.290 delay=     8.016
+FRING3: Ant(17): Phas=  4.97 rate=     4.851 delay=     7.439
+FRING3: Ant(18): Phas=  4.61 rate=     4.545 delay=     7.811
+FRING3: Ant(19): Phas=  5.16 rate=     4.530 delay=     8.227
+FRING3: Ant(20): Phas=  5.37 rate=     4.679 delay=     8.169
+FRING3: Ant(21): Phas=  6.71 rate=     5.171 delay=     9.583
+FRING3: Ant(22): Phas=  5.66 rate=     4.841 delay=     8.099
+FRING3: Time=   0/ 11 47 32, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   4.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   3.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   3.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -60.0 SNR=   3.9
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   4.9
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   2.9
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   3.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   8.0
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 140.1 rate=     23.20 delay=    104.99 SNR=  10.0
+FRING3: Ant(16): Phas= 122.1 rate=     26.27 delay=     95.25 SNR=   9.3
+FRING3: Ant(17): Phas= 199.9 rate=      2.38 delay=     69.49 SNR=   9.3
+FRING3: Ant(18): Phas= 131.4 rate=     10.15 delay=     30.42 SNR=  10.4
+FRING3: Ant(19): Phas=  -2.8 rate=     18.31 delay=    136.64 SNR=   9.6
+FRING3: Ant(20): Phas=  61.9 rate=    -47.17 delay=    130.80 SNR=  10.8
+FRING3: Ant(21): Phas=  22.2 rate=     20.64 delay=   -137.61 SNR=   5.6
+FRING3: Ant(22): Phas=-125.3 rate=     47.25 delay=    198.20 SNR=  10.9
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.74 rate=    11.750 delay=     9.376
+FRING3: Ant(16): Phas=  6.14 rate=     8.608 delay=     9.329
+FRING3: Ant(17): Phas=  6.17 rate=     9.214 delay=     8.770
+FRING3: Ant(18): Phas=  5.49 rate=     8.381 delay=     8.235
+FRING3: Ant(19): Phas=  5.97 rate=     7.861 delay=     7.890
+FRING3: Ant(20): Phas=  5.31 rate=     8.033 delay=     7.283
+FRING3: Ant(21): Phas= 10.19 rate=    15.907 delay=    15.076
+FRING3: Ant(22): Phas=  5.26 rate=     8.521 delay=     7.619
+FRING3: Time=   0/ 11 47 32, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   4.4
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   2.4
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   2.2
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   3.9
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   6.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   8.5
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -290.0 SNR=   2.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      280.0 SNR=   3.5
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 120.6 rate=     -4.46 delay=     75.48 SNR=  10.6
+FRING3: Ant(16): Phas=  99.6 rate=     59.28 delay=    146.07 SNR=  10.7
+FRING3: Ant(17): Phas=-144.7 rate=    -11.27 delay=     54.17 SNR=  11.7
+FRING3: Ant(18): Phas= 154.8 rate=     52.34 delay=     22.93 SNR=  11.6
+FRING3: Ant(19): Phas=  17.7 rate=    -21.67 delay=    184.03 SNR=  12.1
+FRING3: Ant(20): Phas=  45.3 rate=     42.12 delay=    135.62 SNR=  11.6
+FRING3: Ant(21): Phas= -76.1 rate=    100.91 delay=   -305.53 SNR=  10.7
+FRING3: Ant(22): Phas=-135.4 rate=     -0.16 delay=    332.97 SNR=  10.6
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.42 rate=     7.742 delay=     7.818
+FRING3: Ant(16): Phas=  5.33 rate=     8.510 delay=     7.592
+FRING3: Ant(17): Phas=  4.91 rate=     8.008 delay=     7.230
+FRING3: Ant(18): Phas=  4.93 rate=     7.323 delay=     7.230
+FRING3: Ant(19): Phas=  4.75 rate=     7.284 delay=     7.162
+FRING3: Ant(20): Phas=  4.95 rate=     7.757 delay=     7.724
+FRING3: Ant(21): Phas=  5.37 rate=     9.167 delay=     9.356
+FRING3: Ant(22): Phas=  5.42 rate=     7.704 delay=     7.930
+FRING3: Time=   0/ 11 47 37, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   4.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   4.9
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   7.2
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -20.0 SNR=   6.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   9.6
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      250.0 SNR=   2.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      170.0 SNR=   2.1
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   3.9
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 134.3 rate=      3.41 delay=    101.41 SNR=  13.8
+FRING3: Ant(16): Phas= 147.8 rate=     -3.47 delay=    112.09 SNR=  13.3
+FRING3: Ant(17): Phas=-160.8 rate=    -11.00 delay=     42.20 SNR=  14.5
+FRING3: Ant(18): Phas= 166.2 rate=     29.60 delay=     34.38 SNR=  13.3
+FRING3: Ant(19): Phas=  10.9 rate=    -15.17 delay=    150.79 SNR=  14.9
+FRING3: Ant(20): Phas=  43.4 rate=    -10.81 delay=    152.56 SNR=  13.0
+FRING3: Ant(21): Phas=  35.9 rate=     20.30 delay=    -26.87 SNR=  12.9
+FRING3: Ant(22): Phas=-132.3 rate=    -10.34 delay=    244.94 SNR=  13.7
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.16 rate=     3.862 delay=     6.203
+FRING3: Ant(16): Phas=  4.32 rate=     3.741 delay=     6.269
+FRING3: Ant(17): Phas=  3.95 rate=     3.676 delay=     6.071
+FRING3: Ant(18): Phas=  4.29 rate=     4.118 delay=     6.322
+FRING3: Ant(19): Phas=  3.85 rate=     3.686 delay=     6.148
+FRING3: Ant(20): Phas=  4.42 rate=     3.928 delay=     6.483
+FRING3: Ant(21): Phas=  4.45 rate=     4.317 delay=     6.869
+FRING3: Ant(22): Phas=  4.18 rate=     3.646 delay=     6.541
+FRING3: Time=   0/ 11 47 37, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.6
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   5.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   4.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   6.4
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      190.0 SNR=   6.8
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   4.9
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -90.0 SNR=   3.2
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   8.4
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 128.3 rate=    -39.65 delay=    153.98 SNR=  12.7
+FRING3: Ant(16): Phas= 128.6 rate=    -34.28 delay=    119.97 SNR=  12.3
+FRING3: Ant(17): Phas=-118.9 rate=    -15.87 delay=     85.43 SNR=  12.6
+FRING3: Ant(18): Phas=-207.0 rate=    -10.17 delay=     -5.66 SNR=  12.3
+FRING3: Ant(19): Phas=  28.5 rate=      1.56 delay=    158.11 SNR=  13.5
+FRING3: Ant(20): Phas=  53.0 rate=     11.88 delay=     95.67 SNR=  13.2
+FRING3: Ant(21): Phas=  23.2 rate=    -43.41 delay=   -131.52 SNR=  10.7
+FRING3: Ant(22): Phas=-133.8 rate=     72.55 delay=    270.16 SNR=  12.3
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.52 rate=     4.228 delay=     6.502
+FRING3: Ant(16): Phas=  4.67 rate=     4.042 delay=     6.771
+FRING3: Ant(17): Phas=  4.54 rate=     3.868 delay=     6.540
+FRING3: Ant(18): Phas=  4.66 rate=     4.079 delay=     7.493
+FRING3: Ant(19): Phas=  4.23 rate=     3.923 delay=     6.158
+FRING3: Ant(20): Phas=  4.33 rate=     4.174 delay=     6.645
+FRING3: Ant(21): Phas=  5.38 rate=     4.442 delay=     7.520
+FRING3: Ant(22): Phas=  4.66 rate=     4.571 delay=     6.996
+FRING3: Time=   0/ 11 47 42, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   3.7
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   3.5
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   3.5
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   5.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   2.1
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   2.6
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -150.0 SNR=   2.4
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   5.0
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 111.2 rate=    -76.44 delay=    -60.81 SNR=   8.2
+FRING3: Ant(16): Phas= 185.0 rate=    134.46 delay=    156.10 SNR=   7.1
+FRING3: Ant(17): Phas=-148.0 rate=    -57.98 delay=    101.10 SNR=   7.1
+FRING3: Ant(18): Phas= 174.8 rate=      9.30 delay=     47.83 SNR=   9.1
+FRING3: Ant(19): Phas=  15.2 rate=     -3.52 delay=    217.45 SNR=   8.1
+FRING3: Ant(20): Phas=  28.5 rate=     21.88 delay=    267.14 SNR=   7.1
+FRING3: Ant(21): Phas= 110.0 rate=    -18.57 delay=      4.51 SNR=   5.2
+FRING3: Ant(22): Phas=-140.1 rate=    -55.88 delay=    228.73 SNR=   8.2
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  6.98 rate=    10.013 delay=    10.357
+FRING3: Ant(16): Phas=  8.07 rate=    10.883 delay=    10.626
+FRING3: Ant(17): Phas=  8.09 rate=    10.324 delay=    10.335
+FRING3: Ant(18): Phas=  6.33 rate=     9.229 delay=     9.344
+FRING3: Ant(19): Phas=  7.03 rate=     9.559 delay=    10.729
+FRING3: Ant(20): Phas=  8.02 rate=    10.701 delay=    11.639
+FRING3: Ant(21): Phas= 11.09 rate=    12.132 delay=    13.834
+FRING3: Ant(22): Phas=  7.02 rate=     9.982 delay=    10.173
+FRING3: Time=   0/ 11 47 42, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   4.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   4.6
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   4.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=      -10.0 SNR=   5.1
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   5.3
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   2.5
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      160.0 SNR=   1.9
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      200.0 SNR=   3.7
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=     -120.0 SNR=   1.5
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 113.1 rate=     14.70 delay=    125.47 SNR=   9.7
+FRING3: Ant(16): Phas= 152.0 rate=     70.30 delay=     66.78 SNR=  10.5
+FRING3: Ant(17): Phas=-108.2 rate=    -16.14 delay=     53.23 SNR=  10.4
+FRING3: Ant(18): Phas=-199.3 rate=     71.89 delay=    -50.69 SNR=  10.9
+FRING3: Ant(19): Phas=  48.1 rate=     21.58 delay=    113.66 SNR=  10.8
+FRING3: Ant(20): Phas=  69.6 rate=     20.80 delay=    150.87 SNR=  10.1
+FRING3: Ant(22): Phas=-117.5 rate=    -25.50 delay=    235.58 SNR=  10.3
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.90 rate=     8.628 delay=     8.629
+FRING3: Ant(16): Phas=  5.43 rate=     8.053 delay=     8.403
+FRING3: Ant(17): Phas=  5.49 rate=     7.918 delay=     8.207
+FRING3: Ant(18): Phas=  5.28 rate=     8.381 delay=     8.284
+FRING3: Ant(19): Phas=  5.32 rate=     8.301 delay=     8.696
+FRING3: Ant(20): Phas=  5.65 rate=     9.341 delay=     8.642
+FRING3: Ant(22): Phas=  5.57 rate=     8.550 delay=     8.329
+FRING3: Time=   0/ 11 47 47, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.8
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   4.2
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   2.0
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       70.0 SNR=   3.5
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      210.0 SNR=   2.6
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=     -120.0 SNR=   1.3
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -150.0 SNR=   1.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   7.9
+FRING3: Ant= 20 ref= 19 IF=  1 R=      0.00 D=     -300.0 SNR=   0.8
+FRING3: Ant= 21 ref= 19 IF=  1 R=      0.00 D=     -170.0 SNR=   2.0
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 130.4 rate=     17.76 delay=    -16.35 SNR=   9.7
+FRING3: Ant(16): Phas= 208.2 rate=    -24.07 delay=    135.55 SNR=  11.0
+FRING3: Ant(17): Phas=-122.1 rate=    -17.91 delay=     70.71 SNR=  10.9
+FRING3: Ant(18): Phas= 164.4 rate=    -24.69 delay=     37.61 SNR=  10.1
+FRING3: Ant(19): Phas=  52.1 rate=    -18.05 delay=    175.72 SNR=  11.2
+FRING3: Ant(21): Phas= 104.0 rate=    -17.41 delay=    -50.37 SNR=  10.7
+FRING3: Ant(22): Phas=-138.7 rate=    -14.49 delay=    174.33 SNR=  11.1
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.92 rate=     4.929 delay=     9.223
+FRING3: Ant(16): Phas=  5.22 rate=     4.845 delay=     7.626
+FRING3: Ant(17): Phas=  5.28 rate=     5.040 delay=     7.773
+FRING3: Ant(18): Phas=  5.68 rate=     4.432 delay=     8.192
+FRING3: Ant(19): Phas=  5.12 rate=     4.444 delay=     8.007
+FRING3: Ant(21): Phas=  5.35 rate=     4.678 delay=     8.050
+FRING3: Ant(22): Phas=  5.18 rate=     4.724 delay=     7.847
+FRING3: Time=   0/ 11 47 47, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   1.5
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.5
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       30.0 SNR=   4.7
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       20.0 SNR=   6.5
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   6.2
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   3.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   4.6
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   5.7
+FRING3: Ant= 15 ref= 19 IF=  1 R=      0.00 D=     -150.0 SNR=   2.3
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas=  85.9 rate=    -35.14 delay=     65.50 SNR=  10.1
+FRING3: Ant(16): Phas= 149.4 rate=     75.50 delay=     80.57 SNR=  12.5
+FRING3: Ant(17): Phas=-141.8 rate=    -40.33 delay=     53.12 SNR=  12.5
+FRING3: Ant(18): Phas=-183.7 rate=    -12.68 delay=      5.70 SNR=  12.3
+FRING3: Ant(19): Phas=  45.1 rate=     14.99 delay=    110.83 SNR=  12.9
+FRING3: Ant(20): Phas=  89.9 rate=     25.44 delay=    255.90 SNR=  10.9
+FRING3: Ant(21): Phas=  26.3 rate=     73.55 delay=   -107.93 SNR=  11.3
+FRING3: Ant(22): Phas=-108.0 rate=    -13.48 delay=    278.94 SNR=  12.5
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.67 rate=     4.607 delay=     8.936
+FRING3: Ant(16): Phas=  4.59 rate=     5.168 delay=     7.131
+FRING3: Ant(17): Phas=  4.57 rate=     4.720 delay=     6.621
+FRING3: Ant(18): Phas=  4.66 rate=     4.354 delay=     6.734
+FRING3: Ant(19): Phas=  4.46 rate=     4.480 delay=     7.139
+FRING3: Ant(20): Phas=  5.25 rate=     4.651 delay=     7.599
+FRING3: Ant(21): Phas=  5.08 rate=     4.582 delay=     7.401
+FRING3: Ant(22): Phas=  4.57 rate=     4.681 delay=     7.296
+FRING3: Time=   0/ 11 47 52, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=      100.0 SNR=   2.8
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   2.5
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   2.5
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   4.6
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   2.8
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      220.0 SNR=   2.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=     -280.0 SNR=   1.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   5.8
+FRING3: Ant= 21 ref= 15 IF=  1 R=      0.00 D=      -60.0 SNR=   1.4
+FRING3: FIT DID NOT CONVERGE FOR IF    1
+FRING3:  This probably means that the starting value for the
+FRING3: delay or rate for one or more antennae is bad.  You
+FRING3:  may want to set search windows and try again.
+FRING3: Time=   0/ 11 47 52, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.312E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       80.0 SNR=   3.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   2.1
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=       90.0 SNR=   6.7
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=     -300.0 SNR=   3.5
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      150.0 SNR=   6.5
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      110.0 SNR=   2.3
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      300.0 SNR=   2.3
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      260.0 SNR=   5.6
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 123.9 rate=     66.81 delay=     42.32 SNR=  10.6
+FRING3: Ant(16): Phas= 194.6 rate=     56.15 delay=    109.38 SNR=  10.5
+FRING3: Ant(17): Phas=-108.2 rate=    -10.44 delay=     49.99 SNR=  11.4
+FRING3: Ant(18): Phas=  91.5 rate=    -99.09 delay=   -278.02 SNR=   7.8
+FRING3: Ant(19): Phas=  61.4 rate=     45.62 delay=     62.82 SNR=   9.6
+FRING3: Ant(20): Phas=  67.9 rate=     85.24 delay=    101.67 SNR=  10.6
+FRING3: Ant(21): Phas= 113.2 rate=    342.35 delay=    133.16 SNR=   9.5
+FRING3: Ant(22): Phas= -89.2 rate=     62.45 delay=    308.31 SNR=   9.5
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.43 rate=     8.886 delay=     9.482
+FRING3: Ant(16): Phas=  5.44 rate=     9.484 delay=     9.228
+FRING3: Ant(17): Phas=  5.02 rate=     8.576 delay=     8.669
+FRING3: Ant(18): Phas=  7.37 rate=    12.245 delay=    13.327
+FRING3: Ant(19): Phas=  5.95 rate=     9.398 delay=    10.002
+FRING3: Ant(20): Phas=  5.42 rate=     9.300 delay=     9.907
+FRING3: Ant(21): Phas=  6.00 rate=     9.996 delay=    11.103
+FRING3: Ant(22): Phas=  6.03 rate=     9.356 delay=    10.004
+FRING3: Time=   0/ 11 47 57, Polarization = 1
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       60.0 SNR=   5.3
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   2.7
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   2.4
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=        0.0 SNR=   2.0
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      180.0 SNR=   3.6
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=       50.0 SNR=   2.4
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=      -30.0 SNR=   3.0
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      230.0 SNR=   8.7
+FRING3: IF number =    1 Poln. =   1
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 186.8 rate=    131.68 delay=     57.12 SNR=  11.1
+FRING3: Ant(16): Phas=-131.3 rate=      4.70 delay=     90.73 SNR=  13.0
+FRING3: Ant(17): Phas=-107.4 rate=      0.24 delay=     -3.42 SNR=  13.1
+FRING3: Ant(18): Phas= 147.0 rate=     12.63 delay=    -24.40 SNR=  13.2
+FRING3: Ant(19): Phas=  66.3 rate=    -15.87 delay=    148.33 SNR=  13.3
+FRING3: Ant(20): Phas=  61.0 rate=      7.46 delay=     80.70 SNR=  11.9
+FRING3: Ant(21): Phas=  65.9 rate=    -17.49 delay=    -64.25 SNR=  10.7
+FRING3: Ant(22): Phas= -94.7 rate=     11.35 delay=    194.37 SNR=  12.7
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  5.17 rate=     6.918 delay=     7.542
+FRING3: Ant(16): Phas=  4.39 rate=     4.797 delay=     6.781
+FRING3: Ant(17): Phas=  4.38 rate=     4.558 delay=     7.040
+FRING3: Ant(18): Phas=  4.34 rate=     4.515 delay=     7.119
+FRING3: Ant(19): Phas=  4.30 rate=     4.578 delay=     7.104
+FRING3: Ant(20): Phas=  4.81 rate=     4.802 delay=     7.442
+FRING3: Ant(21): Phas=  5.35 rate=     4.905 delay=     8.334
+FRING3: Ant(22): Phas=  4.53 rate=     4.563 delay=     7.074
+FRING3: Time=   0/ 11 47 57, Polarization = 2
+FRING3: Coarse search spacing:   0.100E+02 ns;   0.104E+02 mHz
+FRING3: Ant= 15 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   4.8
+FRING3: Ant= 16 ref= 23 IF=  1 R=      0.00 D=      130.0 SNR=   3.4
+FRING3: Ant= 17 ref= 23 IF=  1 R=      0.00 D=      120.0 SNR=   5.1
+FRING3: Ant= 18 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   4.9
+FRING3: Ant= 19 ref= 23 IF=  1 R=      0.00 D=      290.0 SNR=   2.4
+FRING3: Ant= 20 ref= 23 IF=  1 R=      0.00 D=      140.0 SNR=   3.8
+FRING3: Ant= 21 ref= 23 IF=  1 R=      0.00 D=       40.0 SNR=   2.8
+FRING3: Ant= 22 ref= 23 IF=  1 R=      0.00 D=      240.0 SNR=   2.1
+FRING3: IF number =    1 Poln. =   2
+FRING3: Fitted phases, rates, delays and SNR: [ P = phase(deg),
+FRING3:   R = rate(mHz), D = Single-Band Delay(nsec), S = SNR ]
+FRING3: Ant(15): Phas= 118.8 rate=    -14.38 delay=     85.42 SNR=  12.8
+FRING3: Ant(16): Phas=-150.7 rate=     39.35 delay=    162.87 SNR=  12.4
+FRING3: Ant(17): Phas= -92.9 rate=      1.90 delay=     84.65 SNR=  12.9
+FRING3: Ant(18): Phas=-162.0 rate=      4.70 delay=     68.08 SNR=  12.3
+FRING3: Ant(19): Phas=  99.4 rate=     -0.22 delay=    175.79 SNR=  13.5
+FRING3: Ant(20): Phas=  38.7 rate=     18.52 delay=    120.94 SNR=  12.5
+FRING3: Ant(21): Phas=  47.4 rate=     29.60 delay=      2.92 SNR=   9.9
+FRING3: Ant(22): Phas=-120.8 rate=    -40.04 delay=    209.06 SNR=  11.3
+FRING3: Standard RMS errors (deg, mHz, nsec):
+FRING3: Ant(15): Phas=  4.48 rate=     4.212 delay=     6.344
+FRING3: Ant(16): Phas=  4.63 rate=     4.189 delay=     6.661
+FRING3: Ant(17): Phas=  4.45 rate=     4.002 delay=     6.337
+FRING3: Ant(18): Phas=  4.65 rate=     4.104 delay=     6.840
+FRING3: Ant(19): Phas=  4.24 rate=     3.839 delay=     6.308
+FRING3: Ant(20): Phas=  4.57 rate=     4.240 delay=     6.530
+FRING3: Ant(21): Phas=  5.80 rate=     4.339 delay=     7.383
+FRING3: Ant(22): Phas=  5.06 rate=     4.279 delay=     7.212
+FRING3: Found      615 good solutions
+FRING3: Failed on       33 solutions
+FRING3: Appears to have ended successfully
+FRING3: localhos 31DEC17 TST: Cpu=      1.0  Real=      1  IO=       183
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+CLCAL3: Task CLCAL  (release of 31DEC17) begins
+CLCAL3: Using interpolation mode 2PT
+CLCAL3: Copied CL file from vol/cno/vers  1    1   1 to  1    1   2
+CLCAL3: CALSEL: Making room for new CL data by
+CLCAL3: Deleting CL table no.    2
+CLCAL3: Processing SN table    2
+CLCAL3: SNMRG: Merging SN table
+CLCAL3: SNMRG: Write     324 merged records from     324 input records
+CLCAL3: SN2CL: Applying SN tables to CL table   1, writing CL table  2
+CLCAL3: Appears to have ended successfully
+CLCAL3: localhos 31DEC17 TST: Cpu=      0.0  Real=      0  IO=         3
+SPLIT3: Task SPLIT  (release of 31DEC17) begins
+SPLIT3: You are using a non-standard program
+SPLIT3: Doing subarray  1
+SPLIT3: UVGET: doing no flagging this time
+SPLIT3: WARNING: uncalibrated linear polarization data may be a problem
+SPLIT3: Create BEAM_1      .SPLIT .   1 (UV)  on disk  1  cno    2
+SPLIT3: Applying CL Table version     2
+SPLIT3: WARNING: uncalibrated linear polarization data may be a problem
+SPLIT3:            Previously flagged   flagged by gain         kept
+SPLIT3: Partially           20790                  66          20790
+SPLIT3: Fully                1980                   0              0
+SPLIT3: New NX table written
+SPLIT3: Copied AN file from vol/cno/vers  1    1   1 to  1    2   1
+SPLIT3: Appears to have ended successfully
+SPLIT3: localhos 31DEC17 TST: Cpu=      0.2  Real=      0  IO=       174
+**** Processing L1341+5415 pol:0 ant:DE601 FOV:2
+**** Processing L1341+5415 pol:0 ant:DE602 FOV:2
+**** Processing L1341+5415 pol:0 ant:DE603 FOV:2
+**** Processing L1341+5415 pol:0 ant:DE604 FOV:2
+**** Processing L1341+5415 pol:0 ant:DE605 FOV:2
+**** Processing L1341+5415 pol:0 ant:FR606 FOV:2
+**** Processing L1341+5415 pol:0 ant:SE607 FOV:2
+**** Processing L1341+5415 pol:0 ant:UK608 FOV:2
+**** Processing L1341+5415 pol:1 ant:DE601 FOV:2
+**** Processing L1341+5415 pol:1 ant:DE602 FOV:2
+**** Processing L1341+5415 pol:1 ant:DE603 FOV:2
+**** Processing L1341+5415 pol:1 ant:DE604 FOV:2
+**** Processing L1341+5415 pol:1 ant:DE605 FOV:2
+**** Processing L1341+5415 pol:1 ant:FR606 FOV:2
+**** Processing L1341+5415 pol:1 ant:SE607 FOV:2
+**** Processing L1341+5415 pol:1 ant:UK608 FOV:2
+FITLD3: Task FITLD  (release of 31DEC17) begins
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: WARNING: 64-bit input stored in 32 bits inside AIPS
+FITLD3: Create FITLD       .TEMP  .   1 (MA)  on disk  1  cno   11
+FITLD3: Rename L1341+5415  .IMAP  .   1 (MA)  on disk 1 cno   11
+FITLD3: Image=NONE      (MA)         Filename=L1341+5415  .IMAP  .   1
+FITLD3: Telescope=                   Receiver=
+FITLD3: Observer=                    User #=    3
+FITLD3: Observ. date=BAD DATE        Map date=23-OCT-2018
+FITLD3: Pixel type: FLOATING         Magic value blanking
+FITLD3: Minimum=-1.09845903E-02      Maximum= 3.45485024E-02
+FITLD3: ----------------------------------------------------------------
+FITLD3: Type    Pixels   Coord value     at Pixel     Coord incr   Rotat
+FITLD3: RA---SIN   256    13 41 58.500     128.00        -59.062    0.00
+FITLD3: DEC--SIN   256    54 15 25.700     128.00         59.062    0.00
+FITLD3: ----------------------------------------------------------------
+FITLD3: Coordinate equinox 2000.00
+FITLD3: Maximum version number of extension files of type HI is   1
+FITLD3: Appears to have ended successfully
+FITLD3: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+STARS3: Task STARS  (release of 31DEC17) begins
+STARS3: ZTXOP2: using translated file name =
+STARS3: ZTXOP2: ./starsfile
+STARS3: Wrote     5 lines in ST file version   1
+STARS3: Appears to have ended successfully
+STARS3: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+GREYS3: Task GREYS  (release of 31DEC17) begins
+GREYS3: Start grey scale
+GREYS3: Plotted     5 of     5 positions from ST table version   1
+GREYS3: PLTBEM: NO CLEAN BEAM IN HEADER
+GREYS3: GFINIS: number records used     282
+GREYS3: Successful plot file version    1  created.
+GREYS3: Appears to have ended successfully
+GREYS3: localhos 31DEC17 TST: Cpu=      0.0  Real=      0  IO=         1
+LWPLA3: Task LWPLA  (release of 31DEC17) begins
+LWPLA3: No clipping or scaling applied to grey scale pixels
+LWPLA3: ZTXOP2: using translated file name =
+LWPLA3: ZTXOP2: /tmp/ZLWIO.a48280
+LWPLA3: ZLWIO: plotter file = ./frifiles/L1341+5415_plot.ps
+LWPLA3: Writing plot file version     1 to page    8
+LWPLA3: Using 9.34977E+01 arcsec per mm
+LWPLA3: Using 9.34977E+01 arcsec per mm
+LWPLA3:  25% of grey scale pixels plotted
+LWPLA3:  50% of grey scale pixels plotted
+LWPLA3:  75% of grey scale pixels plotted
+LWPLA3: Appears to have ended successfully
+LWPLA3: localhost    31DEC17 TST: Cpu=       0.1  Real=       0

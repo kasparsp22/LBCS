@@ -1,0 +1,17 @@
+FITLD2: Task FITLD  (release of 31DEC17) begins
+FITLD2: ZTPOPN: DISK DEVICE = SIMPLE1 NOT FOUND
+FITLD2: TAPIO: ERROR   2 OPENING FILE
+FITLD2: ALSO COULD NOT OPEN SIMPLE
+FITLD2: ERROR      8 OPENING TAPE
+FITLD2: Purports to die of UNNATURAL causes
+FITLD2: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+***pload error - 30 sec sleep***
+FITLD2: Task FITLD  (release of 31DEC17) begins
+FITLD2: ZTPOPN: DISK DEVICE = SIMPLE1 NOT FOUND
+FITLD2: TAPIO: ERROR   2 OPENING FILE
+FITLD2: ALSO COULD NOT OPEN SIMPLE
+FITLD2: ERROR      8 OPENING TAPE
+FITLD2: Purports to die of UNNATURAL causes
+FITLD2: localhost    31DEC17 TST: Cpu=       0.0  Real=       0
+***pload error 2***
+Error finding AIPS catalog entry
